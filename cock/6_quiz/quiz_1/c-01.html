@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>Untitled</title>
+<!--Adobe Edge Runtime-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <script type="text/javascript" charset="utf-8" src="edge_includes/edge.5.0.0.min.js"></script>
+    <!-- Quizy -->
+	<link rel="stylesheet" href="css/quizyfillblank_new.css">
+	<script src="js/jquery-1.7.1.min.js"></script>
+	<script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+	<script src="js/jquery.quizyfillblank.min.js"></script>
+    <style>
+        .edgeLoad-EDGE-20141121-P1 { visibility:hidden; }
+		body{ background-image:url(images/1.jpg); background-size:contain;}
+    </style>
+<script>
+   AdobeEdge.loadComposition('c-01', 'EDGE-20141121-P1', {
+    scaleToFit: "both",
+    centerStage: "both",
+    minW: "0",
+    maxW: "undefined",
+    width: "720px",
+    height: "1280px"
+}, {
+    dom: [
+
+    ],
+    style: {
+        '${symbolSelector}': {
+            isStage: true,
+            rect: [undefined, undefined, '500px', '750px']
+        }
+    }
+}, {
+    dom: [
+
+    ],
+    style: {
+        '${symbolSelector}': {
+            isStage: true,
+            rect: [undefined, undefined, '500px', '750px'],
+            fill: ["rgba(255,255,255,1)"]
+        }
+    }
+});
+</script>
+<!--Adobe Edge Runtime End-->
+
+</head>
+<body style="margin:0;padding:0;">
+	<div id="Stage" class="EDGE-20141121-P1"></div>
+	<div id="quizy">
+    	<div id="tutorial-fillblank">
+            <div id="fillblank-text"></div>
+            <div id="fillblank-ph"></div>
+            <div id="Correct" ></div> 
+        </div>
+    </div>
+	<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+	
+		$('#tutorial-fillblank').quizyFillBlank({
+		  textItems:['口 + ',' = 唱 '],
+		  anItems:['屋', '女', '昌', '和', '哈', '口' ], 
+		  anItemsCorrect:[2]
+		});
+	</script>
+</body>
+</html>

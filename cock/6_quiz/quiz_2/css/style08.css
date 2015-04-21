@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* DEMO CSS */
+/*body{
+	width:100%;
+	margin:0px;
+	padding:0px;
+	font-family: Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;	/* Font to use
+	font-size:40px;
+}*/
+/*#heading{
+	height:161px;
+}*/
+
+/* END DEMO CSS */
+
+#dragScriptContainer{	/* BIG DIV containing HTML needed for the entire script */
+	width:215px;
+	height:290px;
+	position:absolute;
+	margin:auto;
+	-moz-user-select:no;
+	left:0;
+	right:0;
+	bottom:110px;
+	z-index:5;
+	
+}
+/*h1{
+	margin:5px;
+	
+}*/
+#questionDiv{	/* Big div for all the questions */
+	float:left;
+	height:260px;
+	width:120px;
+	padding:5px;
+	
+	visibility:hidden;	/* Initial state  - Don't change this */
+}
+#answerDiv{	/* Big div for all the answers */
+	float:right;
+	height:255px;
+	width:55px;
+	margin:0;
+	border:1px solid #C60;
+	/*padding:2px;*/	
+	
+	visibility:hidden; /* Initial state  - Don't change this */
+}
+
+#questionDiv div,#answerDiv div,#dragContent div{	/* General rules for small divs - i.e. specific questions and answers */
+	width:45px;
+	height:55px;	
+	float:left;
+	
+}
+
+
+
+#dragContent div{	/* Drag content div - i.e. specific answers when they are beeing dragged */
+	border:1px solid #000;
+}
+
+#answerDiv .dragDropSmallBox{	/* Small answer divs */
+	/*border:1px solid #F90;*/
+	cursor:pointer;
+	margin:3px;
+	
+}
+
+#questionDiv .dragDropSmallBox{	/* Small answer divs */
+	/*border:1px solid #000;*/
+	font-weight:bold;
+	font-size:14px;
+	cursor:pointer;
+	width:52px;
+	height:22px;
+	margin:2px;
+	margin-top:20px;
+	text-align:center;
+}
+
+#questionDiv div div{	/* DIV after it has been dragged from right to left box */
+	margin:0px;
+	border:0px;
+	padding:0px;
+	/*float:left;*/
+	background-color:#FFF;
+	cursor:pointer;
+}
+#questionDiv .destinationBox{	/* Small empty boxes for the questions - i.e. where answers could be dragged */
+	border:0px;
+	background-color:#DDD;
+	/*float:right;*/
+	width:45px;	/* Width of #questionDiv div + 2 */
+	height:55px;
+	margin:5px;
+
+	
+}
+#questionDiv .correctAnswer{	/* CSS indicating correct answer */
+	/*background-color:green;
+	border:1px solid #000;*/
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+}
+#questionDiv .wrongAnswer{	/* CSS indicating wrong answer */
+	/*background-color:red;
+	border:1px solid #000;*/
+	font-weight:bold;
+	text-align:center;
+	font-size:12px;
+}
+
+#dragContent div{
+	background-color:#FFF;
+}
+
+#questionDiv .dragContentOver{	/* Mouse over question boxes - i.e. indicating where dragged element will be appended if mouse button is relased */
+	border:1px solid #F00;
+}
+
+#answerDiv.dragContentOver{	/* Mouse over answer box - i.e. indicating where dragged element will be appended if mouse button is relased */
+	border:1px solid #F00;
+}
+
+/* NEVER CHANGE THIS */
+#dragContent{
+	position:absolute;
+	z-index:10;
+	margin:auto;
+	display:none;
+}
+
+input{
+	font-size:13px;
+	padding:5px;
+}
+
+img{
+	width:45px;
+	height:48px;
+}
+
+#chkAnswer{
+	font-size:13px;	
+	margin:0;
+	clear:both;
+}
+
+
+@media only screen and (max-width:1000px) and (-webkit-min-device-pixel-ratio: 3), 
+@media only screen and (max-width:1000px) and (-webkit-min-device-pixel-ratio: 4){
+	#dragScriptContainer{bottom:75px;}
+}

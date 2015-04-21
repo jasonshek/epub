@@ -1,0 +1,109 @@
+[0225/210216:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+[0225/210228:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/210228:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/210244:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/210245:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0225/210308:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/210423:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-5 (0)
+[0225/210423:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/a-01/a-01/edge_includes/jquery-2.0.3.min.js (0)
+[0225/210438:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:45", source:  (1)
+[0225/210507:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/210507:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:13)
+    at <anonymous>:0:59", source:  (1)
+[0225/210509:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:45", source:  (1)
+[0225/211114:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/211114:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:13)
+    at <anonymous>:0:59", source:  (1)
+[0225/211153:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-19 (0)
+[0225/211153:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/cover/cover/edge_includes/jquery-2.0.3.min.js (0)
+[0225/211204:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-22 (0)
+[0225/211204:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/cover/cover/edge_includes/jquery-2.0.3.min.js (0)
+[0225/211447:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-44 (0)
+[0225/211447:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/cover/cover/edge_includes/jquery-2.0.3.min.js (0)
+[0225/211540:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,0", source: about:docKey-58 (0)
+[0225/211540:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/cover/cover/edge_includes/jquery-2.0.3.min.js (0)
+[0225/212042:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0225/212248:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212303:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212325:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212325:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212325:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212325:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212326:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212326:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/cover/cover/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212415:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+[0225/212427:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212427:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212427:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212428:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0225/212738:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212856:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212856:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:13)
+    at <anonymous>:0:61", source:  (1)
+[0225/212911:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/a-01/a-01/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212916:ERROR:ipc_channel_win.cc(405)] pipe error: 232
+[0225/212923:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/212935:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/wuya/working_file/a-01/a-01/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/212955:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0225/213820:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/213834:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/215200:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/AppData/Local/Temp/Adobe/Edge%20Animate%205.0.1/Untitled-1/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/215212:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/AppData/Local/Temp/Adobe/Edge%20Animate%205.0.1/Untitled-1/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/215212:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/AppData/Local/Temp/Adobe/Edge%20Animate%205.0.1/Untitled-1/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/215212:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/AppData/Local/Temp/Adobe/Edge%20Animate%205.0.1/Untitled-1/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/215212:INFO:CONSOLE(1)] "TypeError: Cannot set property 'an_originalId' of undefined
+    at Function.d.data (http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/AppData/Local/Temp/Adobe/Edge%20Animate%205.0.1/Untitled-1/edge_includes/edge.5.0.1.min.js:74:145)
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:25)
+    at <anonymous>:0:61", source:  (1)
+[0225/215321:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/215410:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-12960 (0)
+[0225/215410:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/a2-01/a2-01/edge_includes/jquery-2.0.3.min.js (4)
+[0225/215531:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-12970 (0)
+[0225/215531:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/a2-01/a2-01/edge_includes/jquery-2.0.3.min.js (4)

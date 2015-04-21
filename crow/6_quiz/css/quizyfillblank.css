@@ -1,0 +1,91 @@
+/*
+ CSS for Fill in the blank plugin
+*/
+
+/* styles for the draggable answers 可拖动的答案样式*/
+.quizy-fitb-answer{
+  cursor: move; /*改变鼠标样式*/
+  font-size: 18px;
+  font-weight: normal;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 3px;
+  text-align: center;
+  color:#000;
+  font-weight:bold;
+  border-bottom-left-radius: 3px;/*圆角边款样式*/
+  border-bottom-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  box-shadow: 2px 2px 2px #F93;
+  background:#FC6;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC6', endColorstr='#F90') progid:DXImageTransform.Microsoft.Shadow(color='#FFF', Direction=135, Strength=3) !important;/*滤镜*/
+  background: -webkit-gradient(linear, left top, left bottom, from(#FC6), to(#F90));/*渐变*/
+  background: -moz-linear-gradient(top,  #FC6,  #F90);
+  position:relative;
+}
+
+/* Droppable elements styles 可拖放的元素样式*/
+.quizy-fitb-droptarget{
+  font-size:25px;
+  padding-top:5px;
+}
+
+.quizy-fitb-droptarget-hover{
+  color:#000;
+  font-weight:bold;
+  background:#555;
+}
+
+
+.quizy-fitb-dropelement-disabled{
+  color:#333 !important;
+  cursor:default;
+}
+
+.quizy-fitb-dropelement.ui-draggable-dragging, .ph-dropelement-inline.ui-draggable-dragging{
+  background:#F90;
+  color:#000;
+  font-weight:bold;
+}
+
+/* results popups 弹出结果窗口的样式*/
+/*.quizy-fitb-res{
+  width:9px;
+  height:6px;
+  position:absolute;
+  z-index:10000;
+  border:1px solid #F93;
+  -moz-box-shadow: 2px 2px 2px #F93;
+  -webkit-box-shadow: 2px 2px 2px #F93;
+  box-shadow: 2px 2px 2px #F93;
+  zoom:1.1;
+  color:#000;
+  font-size:13px;
+  font-weight:bold;
+  text-shadow: 1px 1px 1px #F93;
+  padding-bottom:5px;
+}
+
+.quizy-fitb-res-yes{
+  background: #90aa11;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#b9d62d', endColorstr='#90aa11') progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#b9d62d), to(#90aa11));
+  background: -moz-linear-gradient(top,  #b9d62d,  #90aa11);
+}
+
+.quizy-fitb-res-no{
+  background: #C33;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#C33', endColorstr='#F30') progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#C33), to(#F30));
+  background: -moz-linear-gradient(top,  #C33,  #F30);
+}*/
+
+/*.quizy-fitb-res-num{
+  background: #FC6;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC6', endColorstr='#F90') progid:DXImageTransform.Microsoft.Shadow(color='#000', Direction=135, Strength=3) !important;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FC6), to(#F90));
+  background: -moz-linear-gradient(top,  #FC6,  #F90);
+}*/
+

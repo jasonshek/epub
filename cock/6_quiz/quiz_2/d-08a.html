@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css"  rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/style08.css"/>
+<script type="text/javascript" src="js/javascript.js"></script>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+try{if(typeof(eval(hidecss1))=="function"){hidecss1();}}catch(e){}
+</script>
+<style>
+body{
+    font-family:Helvetica, Arial, Verdana;
+	height:100%;
+	font-size:30px; 
+	overflow:hidden;
+	background:url(images/1.jpg);
+	margin:0 auto;
+}
+</style>
+</head>
+
+<body>
+<div class="center-wrapper">
+	<div id="Stage" class="EDGE-11121547">
+		<div id="Stage_c01-title" class="Stage_c01-title_id"></div>
+	    <div id="Stage_bg_a1" class="Stage_bg_a1_id" ></div>
+	    <div id="Stage_bu_home" class="Stage_bu_home_id" ></div>
+	    <div id="Stage_bu_l" class="Stage_bu_l_id"></div><!--下面按鈕-->
+	    <div id="Stage_bu_r" class="Stage_bu_r_id" ></div><!--下面按鈕-->
+	    <h1 class="Text_id">這種聲音屬於誰</h1>
+	    <div id="Stage_Text" class="Stage_Text_id">下面這些聲音是哪些動物發出來的？請把和它們相關的圖畫拖放到灰色格子內。</div>
+	</div>
+	<div id="dragScriptContainer">
+		<div id="questionDiv">
+			<div class="dragDropSmallBox" id="q1">呱呱叫</div>
+			<div class="destinationBox"></div>
+			<div class="dragDropSmallBox" id="q2">嗡嗡叫</div>
+			<div class="destinationBox"></div>
+			<div class="dragDropSmallBox" id="q3">哈哈笑</div>
+			<div class="destinationBox"></div>
+			<div class="dragDropSmallBox" id="q4">喔喔啼</div>
+			<div class="destinationBox"></div>
+		</div>
+		<div id="answerDiv">
+			<div class="dragDropSmallBox" id="a1"><img src="images/frog.png"/></div>
+			<div class="dragDropSmallBox" id="a2"><img src="images/bee.png"/></div>
+			<div class="dragDropSmallBox" id="a3"><img src="images/rabbit.png"/></div>
+			<div class="dragDropSmallBox" id="a4"><img src="images/cock.png"/></div>
+		</div>
+	
+		<div id="dragContent"></div>
+		<!--<div>-->
+		<p id="chkAnswer" style="color:red;text-align:center;"></p>
+		<input type="button" onclick="dragDropResetForm();return false" style="position:absolute;top:300px;left:50px;" value="再來一次"><input type="button" onclick="checkWrongAnswer()"   style="position:absolute;top:300px;left:150px;" value="完成">
+		<!--</div>-->
+	</div>
+</div>
+
+<script>
+	$(function(){
+		$("#Stage_bu_home").click(function(){
+			window.location.href="../../1_index/cover.html";
+		});
+		$("#Stage_bu_l").click(function(){
+			window.location.href="../quiz_1/c-07.html";
+		});
+		$("#Stage_bu_r").click(function(){
+			window.location.href="../../7_copyright/copyright.html";
+		}); 
+	});
+</script>
+</body>
+</html>

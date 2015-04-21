@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="css/style.css"  rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="css/quizyfillblank.css">
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery-ui-1.8.17.custom.min.js"></script>
+<script src="js/jquery.quizyfillblank.min.js"></script>
+
+<style>
+ body{
+    font-family:Helvetica, Arial, Verdana;
+	height:100%; 
+	overflow:hidden;
+	background:url(images/1.jpg);
+	margin:0 auto;
+  }
+  
+  .text-style1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:18px; 
+	text-align:center;
+    line-height:5px;
+  }
+  
+  .text-style2{
+    font-style:italic;
+    /*margin:0 auto; */
+    color:#777;
+  }
+  
+  .text-style3{
+    width:600px;
+    margin:0 auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+    .quizy-fitb-answer .d-check{
+		visibility:hidden;
+	}
+
+	.quizy-fitb-answer.quizy-fitb-dropelement-disabled .d-check{
+		visibility:visible;
+	}
+
+</style>
+
+
+</head>
+
+<body>
+<div class="center-wrapper">
+	<div id="Stage" class="EDGE-11121547">
+	<div id="Stage_c01-title" class="Stage_c01-title_id"></div>
+    <div id="Stage_bg_a1" class="Stage_bg_a1_id" ></div>
+    <div id="Stage_bu_home" class="Stage_bu_home_id" ></div>
+    <div id="Stage_bu_l" class="Stage_bu_l_id"></div><!--下面按鈕-->
+    <div id="Stage_bu_r" class="Stage_bu_r_id" ></div><!--下面按鈕-->
+    <div id="Stage_ex" class="Stage_ex_id" ></div><!--例子圖片-->
+    <h1 class="Text_id">「口」字朋友多</h1>
+    <div id="Stage_Text" class="Stage_Text_id">
+        小朋友，請你找找看，這個故事裏有好多個字是由「口」字加上別的字組成的呢！請你仿照例子填一填，並讀一讀這些字吧！（請把正確答案拖放到橫線上方）
+        <br />
+    </div>
+        <div id="Stage_q1_title" class="Stage_q1_title_id" >問題3</div>
+    </div>
+    
+   	<div id="Stage_bu1" class="Stage_bu1_id">
+    <div id="Stage_q1" class="Stage_q1_id"></div>
+    <div id="tutorial-fillblank">
+        <div id="Stage_RoundRect2" class="Stage_RoundRect2_id"></div> 
+            <div id="fillblank-text" class="text-style1"></div><br /><br />
+            <div id="fillblank-ph" class='text-style3'></div>
+            <div id="Correct" class="Correct" ></div> 
+        </div>
+    </div>
+</div>
+<script>
+	$('#tutorial-fillblank').quizyFillBlank({
+	  textItems:['',' + 瓜 = 呱 '],
+	  anItems:['屋', '女', '昌', '和', '哈', '口' ], 
+	  anItemsCorrect:[5],
+	  blockSize:21
+	});
+</script>
+
+<script>
+	var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+	s.parentNode.insertBefore(g,s)}(document,'script'));
+	
+	$(function(){
+		$("#Stage_bu_home").click(function(){
+			window.location.href="../../1_index/cover.html";
+		});
+		$("#Stage_bu_l").click(function(){
+			window.location.href="c-02.html";
+		});
+		$("#Stage_bu_r").click(function(){
+			window.location.href="c-04.html";
+		});
+	});
+</script>
+</body>
+</html>

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,div{
+	margin:0;
+	padding:0;	
+}
+
+.divTb{
+	position:relative;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*width:4px;
+	 height:4px; 
+	 background:#F00;*/
+}
+
+.tdColor{
+	background-color:#FC6;	
+}
+
+table{
+	/*position:absolute;
+	top:0;
+	left:0*/;
+	width:200px;
+	height:200px;
+	font-size:24px;
+	font-weight:600;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td{
+	/*text-align:center;
+	vertical-align:middle;*/
+	cursor:pointer;
+}
+
+.points{
+width:1px;height:1px;border:0px solid #111;
+position:absolute;
+line-height:2px;
+font-size:1px;
+background:#111;
+}
+
+td span{
+	/*height:80px;	*/
+}
+
+/*上*/
+.circle1{
+	width:27px;
+	height:46px;
+	border:1px solid #F00;
+	border-top-left-radius:50%;
+	-moz-border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	-moz-border-top-right-radius:50%;	
+}
+
+.circle5{
+	width:27px;
+	height:46px;
+	border:1px solid #F00;
+	border-top-left-radius:50%;
+	-moz-border-top-left-radius:50%;
+	border-top-right-radius:50%;
+	-moz-border-top-right-radius:50%;	
+	
+	border-bottom-right-radius:50%;
+	-moz-border-bottom-right-radius:50%;
+	border-top-right-radius:50%;
+	-moz-border-top-right-radius:50%;
+}
+
+/*下*/
+.circle2{
+	width:27px;
+	height:46px;
+	border:1px solid #F00;
+	border-bottom-left-radius:50%;
+	-moz-border-bottom-left-radius:50%;
+	border-bottom-right-radius:50%;
+	-moz-border-bottom-right-radius:50%;	
+}
+
+/*td 左*/
+.tdcircle3{
+	float:right;
+	width:27px;
+	height:46px;
+	/*padding-top:28px;*/
+	border:1px solid #F00;
+	border-bottom-right-radius:50%;
+	-moz-border-bottom-right-radius:50%;
+	border-top-right-radius:50%;
+	-moz-border-top-right-radius:50%;	
+}
+
+/*span 左*/
+.circle3{
+	float:right;
+	width:27px;
+	height:25px;
+	/*padding-top:28px;*/
+	border:1px solid #F00;
+	border-bottom-right-radius:50%;
+	-moz-border-bottom-right-radius:50%;
+	border-top-right-radius:50%;
+	-moz-border-top-right-radius:50%;	
+}
+
+/*右*/
+.circle4{
+	width:27px;
+	height:46px;
+	border:1px solid #F00;
+	border-top-left-radius:50%;
+	-moz-border-top-left-radius:50%;
+	border-bottom-left-radius:50%;
+	-moz-border-bottom-left-radius:50%;	
+}
+
+
+
+

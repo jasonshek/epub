@@ -1,0 +1,12 @@
+[0225/221250:ERROR:gpu_info_collector_win.cc(146)] Could not read gaming score from assessment results.
+[0225/221302:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/221302:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/221302:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/221303:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0225/221318:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:45), <anonymous>:1:7)
+    at about:blank:0:45", source:  (1)
+[0225/221332:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0225/221332:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (unknown source), <anonymous>:1:13)
+    at <anonymous>:0:57", source:  (1)
