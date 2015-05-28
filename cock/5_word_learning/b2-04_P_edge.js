@@ -19,19 +19,19 @@
         ],
         symbols = {
             "stage": {
-                version: "5.0.0",
+                version: "5.0.1",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
+                build: "5.0.1.386",
                 scaleToFit: "none",
                 centerStage: "none",
                 resizeInstances: false,
                 content: {
                     dom: [
                         {
-                            id: 't04',
-                            type: 'image',
-                            rect: ['-1px', '1px', '720px', '1280px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"t04.png",'0px','0px']
+                            id: 'Symbol_12',
+                            symbolName: 'Symbol_1',
+                            type: 'rect',
+                            rect: ['-1', '1', '720', '1280', 'auto', 'auto']
                         },
                         {
                             id: 'bg_a1',
@@ -64,21 +64,10 @@
                             fill: ["rgba(0,0,0,0)",im+"bu_r.png",'0px','0px']
                         },
                         {
-                            id: 'Rectangle3',
-                            type: 'rect',
-                            rect: ['59px', '424px', '593px', '61px', 'auto', 'auto'],
-                            opacity: 0,
-                            fill: ["rgba(255,255,255,0)"],
-                            stroke: [5,"rgb(0, 185, 29)","dotted"]
-                        },
-                        {
-                            id: 'putonghua_4',
-                            display: 'none',
-                            type: 'audio',
-                            tag: 'audio',
-                            rect: ['95', '606', '320px', '45px', 'auto', 'auto'],
-                            source: ['images/putonghua_4.mp3'],
-                            preload: 'auto'
+                            id: 'play_button2',
+                            type: 'image',
+                            rect: ['310px', '542px', '120px', '120px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"play_button.png",'0px','0px']
                         }
                     ],
                     style: {
@@ -91,8 +80,116 @@
                     }
                 },
                 timeline: {
-                    duration: 50440,
+                    duration: 0,
                     autoPlay: true,
+                    data: [
+
+                    ]
+                }
+            },
+            "highlight": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '593px', '62px', 'auto', 'auto'],
+                            stroke: [6, 'rgba(255,0,0,0.50)', 'dotted'],
+                            id: 'Rectangle',
+                            opacity: '0',
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '605px', '74px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 789,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid46",
+                            "opacity",
+                            0,
+                            0,
+                            "linear",
+                            "${Rectangle}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid51",
+                            "opacity",
+                            503,
+                            139,
+                            "linear",
+                            "${Rectangle}",
+                            '1',
+                            '0.3'
+                        ],
+                        [
+                            "eid52",
+                            "opacity",
+                            642,
+                            147,
+                            "linear",
+                            "${Rectangle}",
+                            '0.300000',
+                            '1'
+                        ]
+                    ]
+                }
+            },
+            "Symbol_1": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '720px', '1280px', 'auto', 'auto'],
+                            id: 't04',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/t04.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['60px', '423px', '593px', '61px', 'auto', 'auto'],
+                            opacity: '0',
+                            id: 'Rectangle3',
+                            stroke: [5, 'rgb(0, 185, 29)', 'dotted'],
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,0)']
+                        },
+                        {
+                            preload: 'auto',
+                            type: 'audio',
+                            source: ['images/putonghua_4.mp3'],
+                            id: 'putonghua_4',
+                            rect: ['96px', '605px', '320px', '45px', 'auto', 'auto'],
+                            display: 'none',
+                            tag: 'audio'
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '720px', '1280px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 50440,
+                    autoPlay: false,
                     data: [
                         [
                             "eid126",
@@ -101,8 +198,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid140",
@@ -111,8 +208,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid141",
@@ -121,8 +218,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid143",
@@ -131,8 +228,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid150",
@@ -141,8 +238,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid153",
@@ -151,8 +248,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid161",
@@ -161,8 +258,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid164",
@@ -171,8 +268,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid168",
@@ -181,8 +278,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid173",
@@ -191,8 +288,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid177",
@@ -201,8 +298,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid185",
@@ -211,8 +308,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid188",
@@ -221,8 +318,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid192",
@@ -231,8 +328,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid197",
@@ -241,8 +338,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid200",
@@ -251,8 +348,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid204",
@@ -261,8 +358,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid209",
@@ -271,8 +368,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid212",
@@ -281,8 +378,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid216",
@@ -291,8 +388,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '60px',
+                            '60px'
                         ],
                         [
                             "eid127",
@@ -301,8 +398,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '424px'
+                            '423px',
+                            '423px'
                         ],
                         [
                             "eid129",
@@ -311,8 +408,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '424px'
+                            '423px',
+                            '423px'
                         ],
                         [
                             "eid147",
@@ -321,8 +418,8 @@
                             454,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '498px'
+                            '423px',
+                            '497px'
                         ],
                         [
                             "eid149",
@@ -331,8 +428,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '498px',
-                            '498px'
+                            '497px',
+                            '497px'
                         ],
                         [
                             "eid158",
@@ -341,8 +438,8 @@
                             555,
                             "linear",
                             "${Rectangle3}",
-                            '498px',
-                            '571px'
+                            '497px',
+                            '570px'
                         ],
                         [
                             "eid160",
@@ -351,8 +448,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '571px',
-                            '571px'
+                            '570px',
+                            '570px'
                         ],
                         [
                             "eid170",
@@ -361,8 +458,8 @@
                             570,
                             "linear",
                             "${Rectangle3}",
-                            '571px',
-                            '645px'
+                            '570px',
+                            '644px'
                         ],
                         [
                             "eid172",
@@ -371,8 +468,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '645px',
-                            '645px'
+                            '644px',
+                            '644px'
                         ],
                         [
                             "eid182",
@@ -381,8 +478,8 @@
                             533,
                             "linear",
                             "${Rectangle3}",
-                            '645px',
-                            '719px'
+                            '644px',
+                            '718px'
                         ],
                         [
                             "eid184",
@@ -391,8 +488,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '719px',
-                            '719px'
+                            '718px',
+                            '718px'
                         ],
                         [
                             "eid194",
@@ -401,8 +498,8 @@
                             420,
                             "linear",
                             "${Rectangle3}",
-                            '719px',
-                            '792px'
+                            '718px',
+                            '791px'
                         ],
                         [
                             "eid196",
@@ -411,8 +508,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '792px',
-                            '792px'
+                            '791px',
+                            '791px'
                         ],
                         [
                             "eid206",
@@ -421,8 +518,8 @@
                             425,
                             "linear",
                             "${Rectangle3}",
-                            '792px',
-                            '866px'
+                            '791px',
+                            '865px'
                         ],
                         [
                             "eid208",
@@ -431,8 +528,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '866px',
-                            '866px'
+                            '865px',
+                            '865px'
                         ],
                         [
                             "eid218",
@@ -441,8 +538,8 @@
                             473,
                             "linear",
                             "${Rectangle3}",
-                            '866px',
-                            '939px'
+                            '865px',
+                            '938px'
                         ],
                         [
                             "eid125",
@@ -595,67 +692,6 @@
                             '1'
                         ],
                             [ "eid223", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${putonghua_4}', [] ] ]
-                    ]
-                }
-            },
-            "highlight": {
-                version: "5.0.0",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '593px', '62px', 'auto', 'auto'],
-                            stroke: [6, 'rgba(255,0,0,0.50)', 'dotted'],
-                            id: 'Rectangle',
-                            opacity: '0',
-                            type: 'rect',
-                            fill: ['rgba(255,255,255,0.00)']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '605px', '74px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 789,
-                    autoPlay: true,
-                    data: [
-                        [
-                            "eid46",
-                            "opacity",
-                            0,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '1',
-                            '1'
-                        ],
-                        [
-                            "eid51",
-                            "opacity",
-                            503,
-                            139,
-                            "linear",
-                            "${Rectangle}",
-                            '1',
-                            '0.3'
-                        ],
-                        [
-                            "eid52",
-                            "opacity",
-                            642,
-                            147,
-                            "linear",
-                            "${Rectangle}",
-                            '0.300000',
-                            '1'
-                        ]
                     ]
                 }
             }

@@ -19,9 +19,9 @@
         ],
         symbols = {
             "stage": {
-                version: "5.0.1",
+                version: "5.0.0",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.1.386",
+                build: "5.0.0.375",
                 scaleToFit: "none",
                 centerStage: "none",
                 resizeInstances: false,
@@ -56,9 +56,9 @@
                             display: 'block',
                             type: 'text',
                             rect: ['83px', '248px', '575px', '501px', 'auto', 'auto'],
-                            text: "　　說故事是一種啟發性的思維訓練，家長和老師除了按故事內的文字給孩子說故事之外，還可以啟發孩子細看圖畫，用自己的語言來說一個自己「創作」的故事，這對提升孩子的語言表達能力和想像力會有莫大俾益。<br>　　願這套文字簡明淺白，圖畫富童趣的小叢書，陪伴孩子度過一個個愉快的親子共讀夜或愉快的校園閱讀樂時光，也願這套小叢書為孩子插上想像的翅膀！",
+                            text: "　　說故事是一種啟發性的思維訓練，家長和老師除了按故事內的文字給孩子說故事之外，還可以啟發孩子細看圖畫，用自己的語言來說一個自己「創作」的故事，這對提升孩子的語言表達能力和想像力會有莫大裨益。<br><br>　　願這套文字簡明淺白，圖畫富童趣的小叢書，陪伴孩子度過一個個愉快的親子共讀夜或愉快的校園閱讀樂時光，也願這套小叢書為孩子插上想像的翅膀！",
                             align: "justify",
-                            font: ['Arial, Helvetica, sans-serif', [30, "px"], "rgba(0,0,0,1)", "400", "none", "", "break-word", "normal"],
+                            font: ['Arial, Helvetica, sans-serif', [28, "px"], "rgba(0,0,0,1)", "400", "none", "", "break-word", "normal"],
                             textStyle: ["", "", "47px", ""],
                             filter: [0.02, 0, 1, 1, 0, 0, 0, 0, "rgba(0,0,0,0)", 0, 0, 0]
                         }
@@ -76,6 +76,16 @@
                     duration: 0,
                     autoPlay: true,
                     data: [
+                        [
+                            "eid26",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${Text}",
+                            'block',
+                            'block'
+                        ],
                         [
                             "eid28",
                             "line-height",
@@ -107,14 +117,14 @@
                             '501px'
                         ],
                         [
-                            "eid26",
-                            "display",
+                            "eid33",
+                            "font-size",
                             0,
                             0,
                             "linear",
                             "${Text}",
-                            'block',
-                            'block'
+                            '28px',
+                            '28px'
                         ]
                     ]
                 }

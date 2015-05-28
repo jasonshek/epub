@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -131,7 +131,7 @@
                             id: 'pg_1',
                             rect: ['167px', '0px', '652px', '461px', 'auto', 'auto'],
                             transform: [[], [], [], ['1.2']],
-                            fill: ['rgba(0,0,0,0)', 'images/pg_1.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/pg_1.jpg', '0px', '0px']
                         },
                         {
                             rect: ['271px', '461px', '500px', '270px', 'auto', 'auto'],
@@ -465,14 +465,14 @@
                             display: 'none',
                             rect: ['358px', '143px', '334px', '201px', 'auto', 'auto'],
                             id: 'sun_bar',
-                            fill: ['rgba(0,0,0,0)', 'images/sun_bar.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sun_bar.png', '0px', '0px']
                         },
                         {
                             rect: ['0px', '106px', '261px', '328px', 'auto', 'auto'],
                             id: 'chicken',
                             type: 'image',
                             display: 'block',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken.png', '0px', '0px']
                         },
                         {
                             rect: ['237px', '168px', '50px', '50px', 'auto', 'auto'],
@@ -480,7 +480,7 @@
                             id: 'music_note1',
                             opacity: 0,
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/music_note1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/music_note1.png', '0px', '0px']
                         },
                         {
                             preload: 'auto',
@@ -496,7 +496,7 @@
                             id: 'music_note2',
                             opacity: 0,
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/music_note2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/music_note2.png', '0px', '0px']
                         },
                         {
                             rect: ['307px', '156px', '50px', '50px', 'auto', 'auto'],
@@ -504,7 +504,7 @@
                             id: 'music_note3',
                             opacity: 0,
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/music_note3.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/music_note3.png', '0px', '0px']
                         },
                         {
                             rect: ['346px', '170px', '50px', '50px', 'auto', 'auto'],
@@ -512,14 +512,14 @@
                             id: 'music_note4',
                             opacity: 0,
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/music_note4.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/music_note4.png', '0px', '0px']
                         },
                         {
                             rect: ['593px', '139px', '271px', '328px', 'auto', 'auto'],
                             id: 'chicken_mirror2',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken_mirror2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken_mirror2.png', '0px', '0px']
                         }
                     ],
                     style: {

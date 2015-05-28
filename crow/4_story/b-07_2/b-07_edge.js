@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -97,450 +97,419 @@
                 content: {
                     dom: [
                         {
-                            type: 'image',
-                            display: 'block',
                             rect: ['46px', '15px', '1075px', '760px', 'auto', 'auto'],
                             id: 'bg',
-                            fill: ['rgba(0,0,0,0)', 'images/bg.jpg', '0px', '0px']
-                        },
-                        {
-                            type: 'image',
-                            display: 'none',
-                            rect: ['0px', '0px', '1121px', '792px', 'auto', 'auto'],
-                            id: 'bg_without_corvus',
-                            fill: ['rgba(0,0,0,0)', 'images/bg_without_corvus.jpg', '0px', '0px']
-                        },
-                        {
-                            transform: [[], ['11'], [0, 0, 0], [1, 1, 1]],
-                            type: 'image',
-                            id: 'c42',
-                            display: 'none',
-                            rect: ['277px', '119px', '650px', '527px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/c4.png', '0px', '0px']
-                        },
-                        {
-                            type: 'image',
-                            display: 'none',
-                            rect: ['253px', '324px', '64px', '47px', 'auto', 'auto'],
-                            id: 'stone',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
-                        },
-                        {
-                            type: 'image',
-                            display: 'none',
-                            rect: ['310px', '308px', '64px', '47px', 'auto', 'auto'],
-                            id: 'stoneCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
-                        },
-                        {
-                            type: 'image',
-                            display: 'none',
-                            rect: ['278px', '285px', '64px', '47px', 'auto', 'auto'],
-                            id: 'stoneCopy3',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
-                        },
-                        {
                             type: 'image',
                             display: 'block',
-                            rect: ['666px', '149px', '430px', '331px', 'auto', 'auto'],
-                            id: 'c2',
-                            fill: ['rgba(0,0,0,0)', 'images/c2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg7.jpg', '0px', '0px']
                         },
                         {
+                            rect: ['0px', '0px', '1121px', '792px', 'auto', 'auto'],
+                            id: 'bg_without_corvus',
                             type: 'image',
                             display: 'none',
-                            rect: ['665px', '149px', '431px', '331px', 'auto', 'auto'],
-                            id: 'c3',
-                            fill: ['rgba(0,0,0,0)', 'images/c3.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg_without_corvus.jpg', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['277px', '119px', '650px', '527px', 'auto', 'auto'],
+                            transform: [[], ['11']],
+                            id: 'c42',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/c4.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['253px', '324px', '64px', '47px', 'auto', 'auto'],
+                            id: 'stone',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['310px', '308px', '64px', '47px', 'auto', 'auto'],
+                            id: 'stoneCopy2',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['278px', '285px', '64px', '47px', 'auto', 'auto'],
+                            id: 'stoneCopy3',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['666px', '149px', '430px', '331px', 'auto', 'auto'],
+                            id: 'c2',
+                            type: 'image',
+                            display: 'block',
+                            fill: ['rgba(0,0,0,0)', '../images/c2.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['665px', '149px', '431px', '331px', 'auto', 'auto'],
+                            id: 'c3',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/c3.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['28px', '775px', '720px', '398px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,0.00)', 'none'],
-                            rect: ['28px', '775px', '720px', '398px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,255,255,1.00)']
                         },
                         {
-                            type: 'text',
-                            id: 'text1Copy',
-                            text: '他在山坡上 找來了一些小石子，然後把小石子一顆一顆地投進瓶子裏面去。',
-                            rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(0,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
+                            rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
+                            textStyle: ['5px', '', '69px', '64px'],
+                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            id: 'text1Copy',
+                            text: '他在山坡上找來了一些小石子， 然後把小石子一顆一顆地投進瓶子裏面去。',
                             align: 'left',
-                            textStyle: ['5px', '', '69px', '64px']
+                            type: 'text'
                         },
                         {
                             type: 'text',
                             id: 'text1',
                             text: '他',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy2',
                             text: '在',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy3',
                             text: '山',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy4',
                             text: '坡',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy5',
                             text: '上',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy6',
                             text: '找',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['290px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['279px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy7',
                             text: '來',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy8',
                             text: '了',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['364px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['353px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy9',
                             text: '一',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['390px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy10',
                             text: '些',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['439px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['427px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy11',
                             text: '小',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['475px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['464px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy12',
                             text: '石',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['501px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy13',
                             text: '子',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
-                            rect: ['94px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['538px', '788px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy14',
                             text: '然',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['30px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy15',
                             text: '後',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['67px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy16',
                             text: '把',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['105px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy17',
                             text: '小',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['141px', '858px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy18',
                             text: '石',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['178px', '856px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
-                        },
-                        {
-                            type: 'text',
-                            id: 'text1Copy19',
-                            text: '子',
-                            rect: ['215px', '857px', '627px', '124px', 'auto', 'auto'],
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
-                            align: 'left',
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy20',
-                            text: '一',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            text: '子',
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['215px', '857px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
+                        },
+                        {
+                            type: 'text',
+                            id: 'text1Copy19',
+                            text: '一',
+                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
+                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            display: 'none',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['252px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy21',
                             text: '顆',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['289px', '856px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy23',
                             text: '一',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['326px', '788px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy24',
                             text: '顆',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['363px', '856px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy25',
                             text: '地',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['401px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy26',
                             text: '投',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['437px', '856px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy27',
                             text: '進',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['475px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy28',
                             text: '瓶',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['511px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy29',
                             text: '子',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['548px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy30',
                             text: '裏',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['585px', '857px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy31',
                             text: '面',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['30px', '926px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy32',
                             text: '去',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['68px', '925px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             preload: 'auto',
@@ -554,7 +523,8 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '1121px', '1173px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1121px', '1173px']
                         }
                     }
                 },
@@ -571,6 +541,16 @@
                             "${text1Copy10}",
                             '94px',
                             '439px'
+                        ],
+                        [
+                            "eid1966",
+                            "left",
+                            2750,
+                            1360,
+                            "easeOutSine",
+                            "${text1Copy10}",
+                            '439px',
+                            '427px'
                         ],
                         [
                             "eid1862",
@@ -593,7 +573,7 @@
                             '5px'
                         ],
                         [
-                            "eid1731",
+                            "eid1974",
                             "width",
                             0,
                             0,
@@ -603,17 +583,17 @@
                             '627px'
                         ],
                         [
-                            "eid1678",
-                            "left",
+                            "eid1778",
+                            "color",
                             0,
-                            3344,
+                            0,
                             "easeOutSine",
-                            "${text1Copy12}",
-                            '94px',
-                            '512px'
+                            "${text1Copy25}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1728",
+                            "eid1972",
                             "color",
                             0,
                             0,
@@ -763,14 +743,14 @@
                             '32px'
                         ],
                         [
-                            "eid1636",
-                            "color",
+                            "eid1833",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy13}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy32}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1564",
@@ -873,14 +853,14 @@
                             '124px'
                         ],
                         [
-                            "eid1793",
-                            "text-indent",
-                            0,
+                            "eid1505",
+                            "height",
+                            6750,
                             0,
                             "easeOutSine",
-                            "${text1Copy27}",
-                            '64px',
-                            '64px'
+                            "${stoneCopy2}",
+                            '47px',
+                            '47px'
                         ],
                         [
                             "eid1552",
@@ -913,14 +893,14 @@
                             '5px'
                         ],
                         [
-                            "eid1710",
-                            "line-height",
+                            "eid1568",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            '69px',
-                            '69px'
+                            "${text1Copy6}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1788",
@@ -933,14 +913,14 @@
                             '627px'
                         ],
                         [
-                            "eid1586",
-                            "text-indent",
+                            "eid1835",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
-                            '64px',
-                            '64px'
+                            "${text1Copy32}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1467",
@@ -963,14 +943,14 @@
                             '131px'
                         ],
                         [
-                            "eid1950",
-                            "top",
+                            "eid1538",
+                            "text-indent",
                             0,
-                            10000,
+                            0,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            '788px',
-                            '926px'
+                            "${text1Copy2}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1734",
@@ -985,7 +965,7 @@
                         [
                             "eid1887",
                             "display",
-                            10070,
+                            8957,
                             0,
                             "easeOutSine",
                             "${text1Copy20}",
@@ -995,7 +975,7 @@
                         [
                             "eid1888",
                             "display",
-                            10500,
+                            9196,
                             0,
                             "easeOutSine",
                             "${text1Copy20}",
@@ -1023,14 +1003,14 @@
                             '64px'
                         ],
                         [
-                            "eid1524",
-                            "line-height",
-                            0,
+                            "eid1961",
+                            "color",
+                            500,
                             0,
                             "easeOutSine",
                             "${text1}",
-                            '69px',
-                            '69px'
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1893",
@@ -1173,14 +1153,14 @@
                             '627px'
                         ],
                         [
-                            "eid1712",
-                            "width",
+                            "eid1900",
+                            "top",
                             0,
-                            0,
+                            7936,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            '627px',
-                            '627px'
+                            "${text1Copy23}",
+                            '788px',
+                            '857px'
                         ],
                         [
                             "eid1562",
@@ -1211,6 +1191,16 @@
                             "${text1Copy7}",
                             '94px',
                             '327px'
+                        ],
+                        [
+                            "eid1963",
+                            "left",
+                            2000,
+                            1154,
+                            "easeOutSine",
+                            "${text1Copy7}",
+                            '327px',
+                            '316px'
                         ],
                         [
                             "eid1561",
@@ -1313,6 +1303,16 @@
                             '364px'
                         ],
                         [
+                            "eid1964",
+                            "left",
+                            2250,
+                            1432,
+                            "easeOutSine",
+                            "${text1Copy8}",
+                            '364px',
+                            '353px'
+                        ],
+                        [
                             "eid1689",
                             "text-indent",
                             0,
@@ -1333,12 +1333,12 @@
                             '124px'
                         ],
                         [
-                            "eid1578",
+                            "eid1817",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy7}",
+                            "${text1Copy30}",
                             '64px',
                             '64px'
                         ],
@@ -1383,6 +1383,16 @@
                             '550px'
                         ],
                         [
+                            "eid1969",
+                            "left",
+                            3644,
+                            1481,
+                            "easeOutSine",
+                            "${text1Copy13}",
+                            '550px',
+                            '538px'
+                        ],
+                        [
                             "eid1504",
                             "display",
                             6750,
@@ -1413,7 +1423,7 @@
                             '69px'
                         ],
                         [
-                            "eid1732",
+                            "eid1970",
                             "line-height",
                             0,
                             0,
@@ -1613,6 +1623,16 @@
                             '290px'
                         ],
                         [
+                            "eid1962",
+                            "left",
+                            1786,
+                            1071,
+                            "easeOutSine",
+                            "${text1Copy6}",
+                            '290px',
+                            '279px'
+                        ],
+                        [
                             "eid1633",
                             "color",
                             0,
@@ -1683,7 +1703,7 @@
                             '5px'
                         ],
                         [
-                            "eid1730",
+                            "eid1980",
                             "height",
                             0,
                             0,
@@ -1941,9 +1961,9 @@
                             '64px'
                         ],
                         [
-                            "eid1881",
+                            "eid1977",
                             "display",
-                            8957,
+                            10070,
                             0,
                             "easeOutSine",
                             "${text1Copy19}",
@@ -1951,9 +1971,9 @@
                             'block'
                         ],
                         [
-                            "eid1886",
+                            "eid1978",
                             "display",
-                            9173,
+                            10500,
                             0,
                             "easeOutSine",
                             "${text1Copy19}",
@@ -2041,7 +2061,7 @@
                             '627px'
                         ],
                         [
-                            "eid1727",
+                            "eid1971",
                             "letter-spacing",
                             0,
                             0,
@@ -2111,14 +2131,24 @@
                             'none'
                         ],
                         [
-                            "eid1542",
-                            "font-size",
-                            0,
+                            "eid1647",
+                            "display",
+                            1352,
                             0,
                             "easeOutSine",
                             "${text1Copy2}",
-                            '32px',
-                            '32px'
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1648",
+                            "display",
+                            1638,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1906",
@@ -2131,14 +2161,24 @@
                             '856px'
                         ],
                         [
-                            "eid1697",
-                            "text-indent",
-                            0,
+                            "eid1643",
+                            "display",
+                            1000,
                             0,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            '64px',
-                            '64px'
+                            "${text1}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1644",
+                            "display",
+                            1300,
+                            0,
+                            "easeOutSine",
+                            "${text1}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1846",
@@ -2261,24 +2301,14 @@
                             '627px'
                         ],
                         [
-                            "eid1662",
-                            "display",
-                            3154,
+                            "eid1973",
+                            "left",
+                            7360,
                             0,
                             "easeOutSine",
-                            "${text1Copy7}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1664",
-                            "display",
-                            3500,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy7}",
-                            'block',
-                            'none'
+                            "${text1Copy19}",
+                            '252px',
+                            '252px'
                         ],
                         [
                             "eid1801",
@@ -2291,14 +2321,14 @@
                             '64px'
                         ],
                         [
-                            "eid1947",
-                            "left",
-                            9750,
+                            "eid1976",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '585px',
-                            '585px'
+                            "${text1Copy19}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1775",
@@ -2331,14 +2361,24 @@
                             '69px'
                         ],
                         [
-                            "eid1826",
-                            "height",
-                            0,
+                            "eid1665",
+                            "display",
+                            3682,
                             0,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            '124px',
-                            '124px'
+                            "${text1Copy8}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1667",
+                            "display",
+                            3853,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy8}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1889",
@@ -2348,6 +2388,16 @@
                             "easeOutSine",
                             "${text1Copy20}",
                             '788px',
+                            '857px'
+                        ],
+                        [
+                            "eid1981",
+                            "top",
+                            8957,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy20}",
+                            '857px',
                             '857px'
                         ],
                         [
@@ -2449,14 +2499,14 @@
                             '124px'
                         ],
                         [
-                            "eid1603",
-                            "height",
+                            "eid1622",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy10}",
-                            '124px',
-                            '124px'
+                            "${text1Copy12}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1619",
@@ -2509,14 +2559,14 @@
                             '788px'
                         ],
                         [
-                            "eid1622",
-                            "font-size",
+                            "eid1603",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy12}",
-                            '32px',
-                            '32px'
+                            "${text1Copy10}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid1620",
@@ -2549,16 +2599,6 @@
                             '124px'
                         ],
                         [
-                            "eid1817",
-                            "text-indent",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy30}",
-                            '64px',
-                            '64px'
-                        ],
-                        [
                             "eid1640",
                             "color",
                             0,
@@ -2567,6 +2607,16 @@
                             "${text1Copy4}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1837",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy32}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1764",
@@ -2589,14 +2639,24 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1525",
-                            "letter-spacing",
-                            0,
+                            "eid1853",
+                            "display",
+                            7000,
                             0,
                             "easeOutSine",
-                            "${text1}",
-                            '5px',
-                            '5px'
+                            "${text1Copy15}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1854",
+                            "display",
+                            7281,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy15}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1632",
@@ -2619,12 +2679,12 @@
                             '124px'
                         ],
                         [
-                            "eid1777",
+                            "eid1578",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy25}",
+                            "${text1Copy7}",
                             '64px',
                             '64px'
                         ],
@@ -2769,6 +2829,16 @@
                             'none'
                         ],
                         [
+                            "eid1777",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy25}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
                             "eid1471",
                             "location",
                             5554,
@@ -2778,34 +2848,24 @@
                             [[310.29, 308.17, 0, 0, 0, 0,0],[257.29, 429.17, -4.74, 22.31, -26.58, 125.02,132.41],[266.89, 468.23, -11.93, 69.51, -4.06, 23.68,172.81],[254.55, 538.18, -4.31, 17.62, -15.65, 63.98,243.85],[261.14, 565.16, 51.46, 30.01, 33.56, 19.57,273.64],[312.59, 583.96, -4.07, 75.14, -1.13, 20.8,329.22],[203.05, 622.5, 0, 0, 0, 0,449.12]]
                         ],
                         [
-                            "eid1637",
-                            "color",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy2}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1628",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy13}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1669",
+                            "eid1983",
                             "left",
-                            0,
-                            2500,
+                            7360,
+                            1597,
                             "easeOutSine",
-                            "${text1Copy9}",
-                            '94px',
-                            '401px'
+                            "${text1Copy20}",
+                            '252px',
+                            '215px'
+                        ],
+                        [
+                            "eid1944",
+                            "top",
+                            0,
+                            9750,
+                            "easeOutSine",
+                            "${text1Copy30}",
+                            '788px',
+                            '857px'
                         ],
                         [
                             "eid1848",
@@ -2858,14 +2918,14 @@
                             '856px'
                         ],
                         [
-                            "eid1745",
-                            "text-indent",
+                            "eid1551",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy21}",
-                            '64px',
-                            '64px'
+                            "${text1Copy4}",
+                            '788px',
+                            '788px'
                         ],
                         [
                             "eid1555",
@@ -2878,12 +2938,12 @@
                             '124px'
                         ],
                         [
-                            "eid1585",
+                            "eid1524",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
+                            "${text1}",
                             '69px',
                             '69px'
                         ],
@@ -2928,42 +2988,42 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1853",
-                            "display",
-                            7000,
+                            "eid1669",
+                            "left",
                             0,
+                            2500,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            'none',
-                            'block'
+                            "${text1Copy9}",
+                            '94px',
+                            '401px'
                         ],
                         [
-                            "eid1854",
-                            "display",
-                            7281,
-                            0,
+                            "eid1965",
+                            "left",
+                            2500,
+                            1429,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            'block',
-                            'none'
+                            "${text1Copy9}",
+                            '401px',
+                            '390px'
                         ],
                         [
-                            "eid1551",
-                            "top",
-                            0,
+                            "eid1475",
+                            "left",
+                            3500,
                             0,
                             "easeOutSine",
-                            "${text1Copy4}",
-                            '788px',
-                            '788px'
+                            "${bg}",
+                            '46px',
+                            '46px'
                         ],
                         [
-                            "eid1538",
+                            "eid1586",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy2}",
+                            "${text1Copy8}",
                             '64px',
                             '64px'
                         ],
@@ -2978,24 +3038,24 @@
                             'none'
                         ],
                         [
-                            "eid1714",
-                            "color",
+                            "eid1827",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy31}",
+                            '69px',
+                            '69px'
                         ],
                         [
-                            "eid1729",
-                            "text-indent",
+                            "eid1950",
+                            "top",
                             0,
-                            0,
+                            10000,
                             "easeOutSine",
-                            "${text1Copy19}",
-                            '64px',
-                            '64px'
+                            "${text1Copy31}",
+                            '788px',
+                            '926px'
                         ],
                         [
                             "eid1614",
@@ -3048,34 +3108,34 @@
                             'none'
                         ],
                         [
-                            "eid1568",
-                            "letter-spacing",
-                            0,
+                            "eid1947",
+                            "left",
+                            9750,
                             0,
                             "easeOutSine",
-                            "${text1Copy6}",
-                            '5px',
-                            '5px'
+                            "${text1Copy30}",
+                            '585px',
+                            '585px'
                         ],
                         [
-                            "eid1693",
-                            "width",
+                            "eid1710",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy14}",
-                            '627px',
-                            '627px'
+                            "${text1Copy17}",
+                            '69px',
+                            '69px'
                         ],
                         [
-                            "eid1961",
-                            "color",
-                            500,
+                            "eid1585",
+                            "line-height",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy8}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid1806",
@@ -3108,14 +3168,14 @@
                             '124px'
                         ],
                         [
-                            "eid1944",
-                            "top",
+                            "eid1829",
+                            "font-size",
                             0,
-                            9750,
+                            0,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '788px',
-                            '857px'
+                            "${text1Copy31}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1787",
@@ -3128,14 +3188,14 @@
                             '124px'
                         ],
                         [
-                            "eid1548",
-                            "top",
+                            "eid1525",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy3}",
-                            '788px',
-                            '788px'
+                            "${text1}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1537",
@@ -3146,46 +3206,6 @@
                             "${text1Copy2}",
                             '627px',
                             '627px'
-                        ],
-                        [
-                            "eid1643",
-                            "display",
-                            1000,
-                            0,
-                            "easeOutSine",
-                            "${text1}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1644",
-                            "display",
-                            1300,
-                            0,
-                            "easeOutSine",
-                            "${text1}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1652",
-                            "display",
-                            2100,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy4}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1654",
-                            "display",
-                            2392,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy4}",
-                            'block',
-                            'none'
                         ],
                         [
                             "eid1478",
@@ -3238,14 +3258,34 @@
                             '2deg'
                         ],
                         [
-                            "eid1798",
-                            "line-height",
+                            "eid1652",
+                            "display",
+                            2100,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy4}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1654",
+                            "display",
+                            2392,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy4}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1697",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            '69px',
-                            '69px'
+                            "${text1Copy15}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1931",
@@ -3268,24 +3308,24 @@
                             'none'
                         ],
                         [
-                            "eid1647",
-                            "display",
-                            1352,
+                            "eid1548",
+                            "top",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy2}",
-                            'none',
-                            'block'
+                            "${text1Copy3}",
+                            '788px',
+                            '788px'
                         ],
                         [
-                            "eid1648",
-                            "display",
-                            1638,
+                            "eid1542",
+                            "font-size",
+                            0,
                             0,
                             "easeOutSine",
                             "${text1Copy2}",
-                            'block',
-                            'none'
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1707",
@@ -3308,14 +3348,14 @@
                             '5px'
                         ],
                         [
-                            "eid1475",
+                            "eid1858",
                             "left",
-                            3500,
+                            5339,
                             0,
                             "easeOutSine",
-                            "${bg}",
-                            '46px',
-                            '46px'
+                            "${text1Copy15}",
+                            '67px',
+                            '67px'
                         ],
                         [
                             "eid1762",
@@ -3328,24 +3368,24 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid838",
-                            "font-size",
+                            "eid1724",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            '32px',
-                            '32px'
+                            "${text1Copy18}",
+                            '124px',
+                            '124px'
                         ],
                         [
-                            "eid843",
-                            "top",
+                            "eid1805",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            '788px',
-                            '788px'
+                            "${text1Copy28}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1779",
@@ -3428,14 +3468,14 @@
                             '5px'
                         ],
                         [
-                            "eid1639",
-                            "color",
+                            "eid1814",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy12}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy30}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid1584",
@@ -3508,24 +3548,24 @@
                             '32px'
                         ],
                         [
-                            "eid1724",
-                            "height",
+                            "eid838",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy18}",
-                            '124px',
-                            '124px'
+                            "${text1Copy}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid1805",
-                            "width",
+                            "eid843",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            '627px',
-                            '627px'
+                            "${text1Copy}",
+                            '788px',
+                            '788px'
                         ],
                         [
                             "eid1675",
@@ -3538,14 +3578,24 @@
                             '475px'
                         ],
                         [
-                            "eid1814",
-                            "line-height",
+                            "eid1967",
+                            "left",
+                            3049,
+                            1351,
+                            "easeOutSine",
+                            "${text1Copy11}",
+                            '475px',
+                            '464px'
+                        ],
+                        [
+                            "eid1639",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '69px',
-                            '69px'
+                            "${text1Copy12}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1816",
@@ -3578,12 +3628,12 @@
                             '857px'
                         ],
                         [
-                            "eid1611",
+                            "eid1802",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy11}",
+                            "${text1Copy28}",
                             '124px',
                             '124px'
                         ],
@@ -3628,26 +3678,6 @@
                             '64px'
                         ],
                         [
-                            "eid1739",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy20}",
-                            '124px',
-                            '124px'
-                        ],
-                        [
-                            "eid1600",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
                             "eid1668",
                             "display",
                             3929,
@@ -3676,6 +3706,26 @@
                             "${text1Copy9}",
                             '69px',
                             '69px'
+                        ],
+                        [
+                            "eid1739",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy20}",
+                            '124px',
+                            '124px'
+                        ],
+                        [
+                            "eid1600",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy10}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1852",
@@ -3738,14 +3788,14 @@
                             '64px'
                         ],
                         [
-                            "eid1807",
-                            "letter-spacing",
+                            "eid1832",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy29}",
-                            '5px',
-                            '5px'
+                            "${text1Copy32}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1725",
@@ -3848,14 +3898,14 @@
                             '627px'
                         ],
                         [
-                            "eid1812",
-                            "width",
+                            "eid1807",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
                             "${text1Copy29}",
-                            '627px',
-                            '627px'
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1430",
@@ -4008,14 +4058,14 @@
                             '475px'
                         ],
                         [
-                            "eid1832",
-                            "color",
+                            "eid1812",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy32}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy29}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1687",
@@ -4088,14 +4138,14 @@
                             'none'
                         ],
                         [
-                            "eid1709",
-                            "font-size",
+                            "eid1611",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy16}",
-                            '32px',
-                            '32px'
+                            "${text1Copy11}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid1797",
@@ -4117,24 +4167,44 @@
                             [[880.55, 314.5, 0, 0, 0, 0,0],[726.73, 248.91, -273.46, 12.02, -257.07, 11.3,171.47],[439.23, 357.29, -176.76, 33.18, -317.22, 59.56,480.39],[280.83, 318.42, -179.2, -13.87, -148.96, -11.53,645.4],[-203.91, 339.17, 0, 0, 0, 0,1130.67]]
                         ],
                         [
-                            "eid1778",
-                            "color",
+                            "eid1678",
+                            "left",
                             0,
-                            0,
+                            3344,
                             "easeOutSine",
-                            "${text1Copy25}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy12}",
+                            '94px',
+                            '512px'
                         ],
                         [
-                            "eid1885",
+                            "eid1968",
                             "left",
-                            6890,
+                            3344,
+                            1406,
+                            "easeOutSine",
+                            "${text1Copy12}",
+                            '512px',
+                            '501px'
+                        ],
+                        [
+                            "eid1662",
+                            "display",
+                            3154,
                             0,
                             "easeOutSine",
-                            "${text1Copy19}",
-                            '215px',
-                            '215px'
+                            "${text1Copy7}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1664",
+                            "display",
+                            3500,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy7}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1650",
@@ -4167,14 +4237,14 @@
                             '124px'
                         ],
                         [
-                            "eid1892",
-                            "left",
-                            7360,
+                            "eid1628",
+                            "width",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy20}",
-                            '252px',
-                            '252px'
+                            "${text1Copy13}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1721",
@@ -4197,14 +4267,14 @@
                             '69px'
                         ],
                         [
-                            "eid1803",
-                            "color",
+                            "eid1798",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
                             "${text1Copy28}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid1655",
@@ -4227,14 +4297,14 @@
                             'none'
                         ],
                         [
-                            "eid1833",
-                            "text-indent",
+                            "eid1636",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy32}",
-                            '64px',
-                            '64px'
+                            "${text1Copy13}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1786",
@@ -4257,24 +4327,144 @@
                             '30px'
                         ],
                         [
-                            "eid1505",
-                            "height",
-                            6750,
+                            "eid1793",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
-                            "${stoneCopy2}",
-                            '47px',
-                            '47px'
+                            "${text1Copy27}",
+                            '64px',
+                            '64px'
                         ],
                         [
-                            "eid1802",
+                            "eid1709",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy16}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid1693",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy14}",
+                            '627px',
+                            '627px'
+                        ],
+                        [
+                            "eid1789",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy26}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid1465",
+                            "display",
+                            4804,
+                            0,
+                            "easeOutSine",
+                            "${bg_without_corvus}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1824",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy31}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1826",
                             "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy31}",
+                            '124px',
+                            '124px'
+                        ],
+                        [
+                            "eid1580",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy7}",
+                            '627px',
+                            '627px'
+                        ],
+                        [
+                            "eid1979",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy19}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid1803",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
                             "${text1Copy28}",
-                            '124px',
-                            '124px'
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1637",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1533",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid1975",
+                            "top",
+                            0,
+                            7360,
+                            "easeOutSine",
+                            "${text1Copy19}",
+                            '788px',
+                            '857px'
+                        ],
+                        [
+                            "eid1712",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy17}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1949",
@@ -4297,134 +4487,14 @@
                             'none'
                         ],
                         [
-                            "eid1789",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy26}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1835",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy32}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1824",
+                            "eid1714",
                             "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy31}",
+                            "${text1Copy17}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1837",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy32}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1580",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy7}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1733",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy19}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1465",
-                            "display",
-                            4804,
-                            0,
-                            "easeOutSine",
-                            "${bg_without_corvus}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1711",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy17}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid1533",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1882",
-                            "top",
-                            0,
-                            6890,
-                            "easeOutSine",
-                            "${text1Copy19}",
-                            '788px',
-                            '857px'
-                        ],
-                        [
-                            "eid1858",
-                            "left",
-                            5339,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy15}",
-                            '67px',
-                            '67px'
-                        ],
-                        [
-                            "eid1829",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy31}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1900",
-                            "top",
-                            0,
-                            7936,
-                            "easeOutSine",
-                            "${text1Copy23}",
-                            '788px',
-                            '857px'
                         ],
                         [
                             "eid1810",
@@ -4437,24 +4507,24 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1665",
-                            "display",
-                            3682,
+                            "eid1711",
+                            "letter-spacing",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
-                            'none',
-                            'block'
+                            "${text1Copy17}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1667",
-                            "display",
-                            3853,
+                            "eid1745",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
-                            'block',
-                            'none'
+                            "${text1Copy21}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1758",
@@ -4463,16 +4533,6 @@
                             0,
                             "easeOutSine",
                             "${text1Copy23}",
-                            '69px',
-                            '69px'
-                        ],
-                        [
-                            "eid1827",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy31}",
                             '69px',
                             '69px'
                         ],

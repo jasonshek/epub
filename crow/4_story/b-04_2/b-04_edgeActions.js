@@ -58,6 +58,12 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindElementAction(compId, symbolName, "${bu_cantonese}", "click", function(sym, e) {
+         window.open("../../4_story/b-04/b-04.html", "_self");
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 

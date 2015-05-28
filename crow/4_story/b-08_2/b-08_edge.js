@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -97,466 +97,434 @@
                 content: {
                     dom: [
                         {
-                            rect: ['0px', '115px', '1077px', '762px', 'auto', 'auto'],
                             id: 'bg_without_corvus',
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bg_without_corvus.jpg', '0px', '0px']
+                            rect: ['0px', '115px', '1077px', '762px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', '../images/bg_without_corvus.jpg', '0px', '0px']
                         },
                         {
-                            rect: ['89px', '245px', '503px', '606px', 'auto', 'auto'],
                             id: 'vase',
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/vase.png', '0px', '0px']
+                            rect: ['89px', '245px', '503px', '606px', 'auto', 'auto'],
+                            fill: ['rgba(0,0,0,0)', '../images/vase.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            display: 'none',
                             rect: ['255px', '518px', '179px', '79px', 'auto', 'auto'],
                             id: 'water1',
-                            fill: ['rgba(0,0,0,0)', 'images/water1.png', '0px', '0px']
-                        },
-                        {
                             type: 'image',
                             display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/water1.png', '0px', '0px']
+                        },
+                        {
                             rect: ['265px', '476px', '153px', '112px', 'auto', 'auto'],
                             id: 'water2',
-                            fill: ['rgba(0,0,0,0)', 'images/water2.png', '0px', '0px']
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/water2.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            display: 'block',
                             rect: ['317px', '0px', '110px', '81px', 'auto', 'auto'],
                             id: 'stone',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
+                            type: 'image',
+                            display: 'block',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
                         },
                         {
-                            type: 'image',
-                            display: 'none',
                             rect: ['772px', '387px', '410px', '333px', 'auto', 'auto'],
                             id: 'c4',
-                            fill: ['rgba(0,0,0,0)', 'images/c4.png', '0px', '0px']
-                        },
-                        {
                             type: 'image',
                             display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/c4.png', '0px', '0px']
+                        },
+                        {
                             rect: ['317px', '0px', '110px', '81px', 'auto', 'auto'],
                             id: 'stoneCopy',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
-                        },
-                        {
                             type: 'image',
                             display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
+                        },
+                        {
                             rect: ['372px', '41px', '110px', '81px', 'auto', 'auto'],
                             id: 'stoneCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
-                        },
-                        {
                             type: 'image',
                             display: 'none',
-                            rect: ['372px', '41px', '110px', '81px', 'auto', 'auto'],
-                            id: 'stoneCopy3',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
                         },
                         {
-                            type: 'rect',
+                            rect: ['372px', '41px', '110px', '81px', 'auto', 'auto'],
+                            id: 'stoneCopy3',
+                            type: 'image',
+                            display: 'none',
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
+                        },
+                        {
+                            rect: ['52px', '872px', '720px', '398px', 'auto', 'auto'],
                             id: 'Rectangle',
                             stroke: [0, 'rgba(0,0,0,0.00)', 'none'],
-                            rect: ['52px', '872px', '720px', '398px', 'auto', 'auto'],
+                            type: 'rect',
                             fill: ['rgba(255,255,255,1.00)']
                         },
                         {
-                            type: 'text',
+                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(0,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
+                            rect: ['118px', '885px', '627px', '124px', 'auto', 'auto'],
+                            textStyle: ['5px', '', '69px', '64px'],
+                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'text1',
                             text: '小石子一顆一顆地沉到瓶底，瓶子裏的水慢慢地升高起來了。小烏鴉非常高興。',
-                            rect: ['118px', '885px', '627px', '124px', 'auto', 'auto'],
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(0,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             align: 'left',
-                            textStyle: ['5px', '', '69px', '64px']
+                            type: 'text'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy12',
                             text: '小',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['141px', '886px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy11',
                             text: '石',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['155px', '884px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
-                        },
-                        {
-                            type: 'text',
-                            id: 'text1Copy10',
-                            text: '子',
-                            rect: ['192px', '885px', '627px', '124px', 'auto', 'auto'],
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
-                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
-                            align: 'left',
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy9',
-                            text: '一',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            text: '子',
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['230px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
+                        },
+                        {
+                            type: 'text',
+                            id: 'text1Copy2',
+                            text: '一',
+                            font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
+                            filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
+                            display: 'none',
+                            textStyle: ['5px', '', '69px', '64px'],
+                            rect: ['230px', '885px', '627px', '124px', 'auto', 'auto'],
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy8',
                             text: '顆',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['266px', '884px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy7',
                             text: '一',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['303px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy6',
                             text: '顆',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['340px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy5',
                             text: '地',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['401px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy',
                             text: '沉',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['414px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy13',
                             text: '到',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['451px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy14',
                             text: '瓶',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['118px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy15',
                             text: '底',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['525px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy16',
                             text: '瓶',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['599px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy17',
                             text: '子',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['636px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy18',
                             text: '裏',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['55px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy19',
                             text: '的',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['92px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy20',
                             text: '水',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['128px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy21',
                             text: '慢',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['165px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy22',
                             text: '慢',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['202px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy23',
                             text: '地',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['240px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy24',
                             text: '升',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['276px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy25',
                             text: '高',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['118px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy26',
                             text: '起',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['350px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy27',
                             text: '來',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['387px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy28',
                             text: '了',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['425px', '953px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy29',
                             text: '小',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['498px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy30',
                             text: '烏',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['535px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy31',
                             text: '鴉',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['572px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy32',
                             text: '非',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['609px', '954px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy33',
                             text: '常',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['53px', '1023px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy34',
                             text: '高',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['91px', '1023px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             type: 'text',
                             id: 'text1Copy35',
                             text: '興',
-                            fi: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             font: ['Arial, Helvetica, sans-serif', [32, 'px'], 'rgba(255,0,0,1.00)', '400', 'none solid rgb(0, 0, 0)', 'normal', 'break-word', 'normal'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             display: 'none',
-                            align: 'left',
+                            textStyle: ['5px', '', '69px', '64px'],
                             rect: ['128px', '885px', '627px', '124px', 'auto', 'auto'],
-                            textStyle: ['5px', '', '69px', '64px']
+                            align: 'left'
                         },
                         {
                             preload: 'auto',
@@ -570,7 +538,8 @@
                     ],
                     style: {
                         '${symbolSelector}': {
-                            rect: [null, null, '1182px', '1270px']
+                            isStage: 'true',
+                            rect: [undefined, undefined, '1182px', '1270px']
                         }
                     }
                 },
@@ -578,16 +547,6 @@
                     duration: 17700.7,
                     autoPlay: true,
                     data: [
-                        [
-                            "eid2235",
-                            "left",
-                            1039,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '192px',
-                            '192px'
-                        ],
                         [
                             "eid2157",
                             "left",
@@ -619,14 +578,24 @@
                             '627px'
                         ],
                         [
-                            "eid2013",
-                            "color",
-                            0,
+                            "eid1839",
+                            "left",
+                            611,
                             0,
                             "easeOutSine",
-                            "${text1Copy25}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy12}",
+                            '118px',
+                            '118px'
+                        ],
+                        [
+                            "eid1840",
+                            "left",
+                            664,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy12}",
+                            '118px',
+                            '118px'
                         ],
                         [
                             "eid1959",
@@ -657,16 +626,6 @@
                             "${text1Copy6}",
                             'block',
                             'none'
-                        ],
-                        [
-                            "eid1795",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '69px',
-                            '69px'
                         ],
                         [
                             "eid2179",
@@ -749,24 +708,14 @@
                             'none'
                         ],
                         [
-                            "eid2210",
+                            "eid1561",
                             "display",
-                            14428,
+                            9500,
                             0,
                             "easeOutSine",
-                            "${text1Copy30}",
+                            "${c4}",
                             'none',
                             'block'
-                        ],
-                        [
-                            "eid2213",
-                            "display",
-                            14851,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy30}",
-                            'block',
-                            'none'
                         ],
                         [
                             "eid1991",
@@ -929,14 +878,14 @@
                             '377px'
                         ],
                         [
-                            "eid1758",
-                            "height",
+                            "eid1988",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy6}",
-                            '124px',
-                            '124px'
+                            "${text1Copy22}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1551",
@@ -949,16 +898,6 @@
                             '81px'
                         ],
                         [
-                            "eid1804",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
                             "eid1785",
                             "letter-spacing",
                             0,
@@ -969,14 +908,14 @@
                             '5px'
                         ],
                         [
-                            "eid1752",
-                            "letter-spacing",
+                            "eid1939",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy6}",
-                            '5px',
-                            '5px'
+                            "${text1Copy17}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2024",
@@ -989,14 +928,14 @@
                             '627px'
                         ],
                         [
-                            "eid1779",
-                            "text-indent",
+                            "eid2082",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
-                            '64px',
-                            '64px'
+                            "${text1Copy32}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1536",
@@ -1007,6 +946,16 @@
                             "${stone}",
                             'block',
                             'block'
+                        ],
+                        [
+                            "eid2246",
+                            "left",
+                            1250,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '229px',
+                            '229px'
                         ],
                         [
                             "eid2216",
@@ -1079,44 +1028,54 @@
                             '627px'
                         ],
                         [
-                            "eid1773",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy8}",
-                            '69px',
-                            '69px'
-                        ],
-                        [
-                            "eid2010",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy24}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1575",
-                            "color",
+                            "eid412",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
                             "${text1}",
-                            'rgba(0,0,0,1.00)',
-                            'rgba(0,0,0,1.00)'
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid2240",
-                            "left",
-                            1250,
+                            "eid1790",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
                             "${text1Copy9}",
-                            '229px',
-                            '229px'
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid411",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1}",
+                            '69px',
+                            '69px'
+                        ],
+                        [
+                            "eid2173",
+                            "display",
+                            9329,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy21}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2176",
+                            "display",
+                            9905,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy21}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1824",
@@ -1409,14 +1368,13 @@
                             '124px'
                         ],
                         [
-                            "eid2062",
-                            "text-indent",
-                            0,
-                            0,
+                            "eid1544",
+                            "location",
+                            1750,
+                            3500,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '64px',
-                            '64px'
+                            "${stoneCopy}",
+                            [[371.5, 40.5, 0, 0, 0, 0,0],[361.25, 123.49, -19.45, 87.45, -32.32, 145.3,83.76],[343.21, 218.47, -3.97, 38.61, -9.98, 97.13,180.49],[360.83, 260.23, -4.66, 180.14, -0.95, 36.6,226.27],[338, 366.5, 0, 0, 0, 0,335.56],[340.09, 460.58, 0, 0, 0, 0,429.66],[324.47, 525.39, 0, 0, 0, 0,496.33],[418, 646.5, 0, 0, 0, 0,649.35]]
                         ],
                         [
                             "eid1761",
@@ -1427,16 +1385,6 @@
                             "${text1Copy6}",
                             '32px',
                             '32px'
-                        ],
-                        [
-                            "eid1801",
-                            "text-indent",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '64px',
-                            '64px'
                         ],
                         [
                             "eid1900",
@@ -1899,26 +1847,6 @@
                             '627px'
                         ],
                         [
-                            "eid1802",
-                            "display",
-                            1295,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1803",
-                            "display",
-                            1799,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            'block',
-                            'none'
-                        ],
-                        [
                             "eid1788",
                             "width",
                             0,
@@ -2059,6 +1987,16 @@
                             'none'
                         ],
                         [
+                            "eid2243",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '69px',
+                            '69px'
+                        ],
+                        [
                             "eid1938",
                             "left",
                             0,
@@ -2160,16 +2098,6 @@
                             0,
                             "easeOutSine",
                             "${text1Copy23}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1799",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
                             '627px',
                             '627px'
                         ],
@@ -2394,14 +2322,14 @@
                             '350px'
                         ],
                         [
-                            "eid1963",
-                            "text-indent",
+                            "eid2211",
+                            "left",
                             0,
-                            0,
+                            10654,
                             "easeOutSine",
-                            "${text1Copy19}",
-                            '64px',
-                            '64px'
+                            "${text1Copy30}",
+                            '118px',
+                            '535px'
                         ],
                         [
                             "eid2012",
@@ -2412,6 +2340,16 @@
                             "${text1Copy25}",
                             '5px',
                             '5px'
+                        ],
+                        [
+                            "eid2253",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1914",
@@ -2434,14 +2372,54 @@
                             '69px'
                         ],
                         [
-                            "eid2078",
-                            "font-size",
+                            "eid2251",
+                            "display",
+                            1799,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2252",
+                            "display",
+                            2382,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2214",
+                            "display",
+                            14851,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy31}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2217",
+                            "display",
+                            15292,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy31}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1581",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy32}",
-                            '32px',
-                            '32px'
+                            "${text1Copy}",
+                            '885px',
+                            '885px'
                         ],
                         [
                             "eid2171",
@@ -2452,6 +2430,66 @@
                             "${text1Copy20}",
                             '885px',
                             '954px'
+                        ],
+                        [
+                            "eid2249",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid2248",
+                            "top",
+                            0,
+                            1250,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '788px',
+                            '885px'
+                        ],
+                        [
+                            "eid2200",
+                            "display",
+                            12191,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy28}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2203",
+                            "display",
+                            12559,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy28}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2245",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid2027",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy26}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid1823",
@@ -2474,44 +2512,34 @@
                             '69px'
                         ],
                         [
-                            "eid436",
-                            "height",
+                            "eid1981",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1}",
-                            '124px',
-                            '124px'
+                            "${text1Copy21}",
+                            '64px',
+                            '64px'
                         ],
                         [
-                            "eid1910",
-                            "letter-spacing",
+                            "eid2031",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            '5px',
-                            '5px'
+                            "${text1Copy27}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2185",
-                            "display",
-                            10809,
+                            "eid2109",
+                            "font-size",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy24}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2188",
-                            "display",
-                            11105,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy24}",
-                            'block',
-                            'none'
+                            "${text1Copy35}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1548",
@@ -2543,12 +2571,12 @@
                             '64px'
                         ],
                         [
-                            "eid2083",
+                            "eid2092",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy33}",
+                            "${text1Copy34}",
                             '69px',
                             '69px'
                         ],
@@ -2563,44 +2591,34 @@
                             '32px'
                         ],
                         [
-                            "eid1936",
-                            "display",
-                            5809,
+                            "eid1940",
+                            "letter-spacing",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            'none',
-                            'block'
+                            "${text1Copy17}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1937",
-                            "display",
-                            6130,
+                            "eid1974",
+                            "font-size",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy15}",
-                            'block',
-                            'none'
+                            "${text1Copy20}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid1950",
-                            "color",
+                            "eid1826",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy18}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1805",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '124px',
-                            '124px'
+                            "${text1Copy12}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1825",
@@ -2623,14 +2641,24 @@
                             '124px'
                         ],
                         [
-                            "eid2089",
-                            "text-indent",
-                            0,
+                            "eid1918",
+                            "display",
+                            4961,
                             0,
                             "easeOutSine",
-                            "${text1Copy33}",
-                            '64px',
-                            '64px'
+                            "${text1Copy13}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1922",
+                            "display",
+                            5402,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy13}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid2219",
@@ -2653,33 +2681,13 @@
                             '124px'
                         ],
                         [
-                            "eid1970",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy20}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1544",
+                            "eid1553",
                             "location",
-                            1750,
+                            5250,
                             3500,
                             "easeOutSine",
-                            "${stoneCopy}",
-                            [[371.5, 40.5, 0, 0, 0, 0,0],[361.25, 123.49, -19.45, 87.45, -32.32, 145.3,83.76],[343.21, 218.47, -3.97, 38.61, -9.98, 97.13,180.49],[360.83, 260.23, -4.66, 180.14, -0.95, 36.6,226.27],[338, 366.5, 0, 0, 0, 0,335.56],[340.09, 460.58, 0, 0, 0, 0,429.66],[324.47, 525.39, 0, 0, 0, 0,496.33],[418, 646.5, 0, 0, 0, 0,649.35]]
-                        ],
-                        [
-                            "eid2036",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy27}",
-                            '124px',
-                            '124px'
+                            "${stoneCopy3}",
+                            [[371.5, 40.5, 0, 0, 0, 0,0],[361.25, 123.49, -19.45, 87.45, -32.32, 145.3,83.76],[343.21, 218.47, -3.97, 38.61, -9.98, 97.13,180.49],[360.83, 260.23, -4.66, 180.14, -0.95, 36.6,226.27],[338, 366.5, 0, 0, 0, 0,335.56],[340.09, 460.58, 0, 0, 0, 0,429.66],[324.47, 525.39, 0, 0, 0, 0,496.33],[377, 760.5, 0, 0, 0, 0,737.24]]
                         ],
                         [
                             "eid1768",
@@ -2692,24 +2700,34 @@
                             '64px'
                         ],
                         [
-                            "eid1976",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy21}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid2098",
+                            "eid2044",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy34}",
+                            "${text1Copy28}",
                             '64px',
                             '64px'
+                        ],
+                        [
+                            "eid2062",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy30}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid2057",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy30}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid2000",
@@ -2732,34 +2750,14 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1769",
-                            "display",
-                            2924,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy7}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1770",
-                            "display",
-                            3425,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy7}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1797",
-                            "color",
+                            "eid1891",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy10}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy13}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2063",
@@ -2772,34 +2770,44 @@
                             '124px'
                         ],
                         [
-                            "eid2040",
-                            "color",
+                            "eid2163",
+                            "top",
                             0,
-                            0,
+                            5250,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy18}",
+                            '885px',
+                            '954px'
                         ],
                         [
-                            "eid411",
-                            "line-height",
-                            0,
+                            "eid1920",
+                            "display",
+                            4458,
                             0,
                             "easeOutSine",
-                            "${text1}",
-                            '69px',
-                            '69px'
+                            "${text1Copy}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid838",
-                            "font-size",
-                            0,
+                            "eid1921",
+                            "display",
+                            4961,
                             0,
                             "easeOutSine",
-                            "${text1}",
-                            '32px',
-                            '32px'
+                            "${text1Copy}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2224",
+                            "top",
+                            0,
+                            11626,
+                            "easeOutSine",
+                            "${text1Copy33}",
+                            '885px',
+                            '1023px'
                         ],
                         [
                             "eid1541",
@@ -2811,24 +2819,24 @@
                             [[371.5, 40.5, 0, 0, 0, 0,0],[333.21, 220.47, -23.5, 228.64, -26.57, 258.52,184.23],[338, 366.5, 0, 0, 0, 0,330.72],[340.09, 460.58, -18.56, 59.06, -40.74, 129.64,425.98],[324.47, 525.39, -87.71, 195.63, -27.31, 60.91,492.75],[250, 646.5, 0, 0, 0, 0,635.23]]
                         ],
                         [
-                            "eid2170",
-                            "left",
+                            "eid1895",
+                            "width",
                             0,
-                            5723,
+                            0,
                             "easeOutSine",
-                            "${text1Copy20}",
-                            '118px',
-                            '128px'
+                            "${text1Copy13}",
+                            '627px',
+                            '627px'
                         ],
                         [
-                            "eid1961",
-                            "font-size",
+                            "eid1813",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy19}",
-                            '32px',
-                            '32px'
+                            "${text1Copy11}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1905",
@@ -2871,14 +2879,14 @@
                             'none'
                         ],
                         [
-                            "eid2212",
-                            "top",
+                            "eid1575",
+                            "color",
                             0,
-                            10654,
+                            0,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '885px',
-                            '955px'
+                            "${text1}",
+                            'rgba(0,0,0,1.00)',
+                            'rgba(0,0,0,1.00)'
                         ],
                         [
                             "eid2108",
@@ -2911,14 +2919,14 @@
                             'block'
                         ],
                         [
-                            "eid1895",
-                            "width",
+                            "eid2183",
+                            "top",
                             0,
-                            0,
+                            6360,
                             "easeOutSine",
-                            "${text1Copy13}",
-                            '627px',
-                            '627px'
+                            "${text1Copy23}",
+                            '885px',
+                            '955px'
                         ],
                         [
                             "eid1892",
@@ -2931,12 +2939,12 @@
                             '5px'
                         ],
                         [
-                            "eid1790",
+                            "eid2017",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy9}",
+                            "${text1Copy25}",
                             '64px',
                             '64px'
                         ],
@@ -2961,24 +2969,14 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2214",
-                            "display",
-                            14851,
+                            "eid1778",
+                            "top",
                             0,
+                            1500,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2217",
-                            "display",
-                            15292,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy31}",
-                            'block',
-                            'none'
+                            "${text1Copy8}",
+                            '788px',
+                            '884px'
                         ],
                         [
                             "eid1546",
@@ -2991,24 +2989,24 @@
                             '110px'
                         ],
                         [
-                            "eid1967",
-                            "letter-spacing",
+                            "eid2028",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy20}",
-                            '5px',
-                            '5px'
+                            "${text1Copy26}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid1995",
-                            "color",
+                            "eid1993",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
                             "${text1Copy23}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2065",
@@ -3051,14 +3049,14 @@
                             '64px'
                         ],
                         [
-                            "eid2082",
-                            "width",
+                            "eid2072",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy32}",
-                            '627px',
-                            '627px'
+                            "${text1Copy31}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid2204",
@@ -3081,54 +3079,54 @@
                             'none'
                         ],
                         [
-                            "eid2211",
+                            "eid1972",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy20}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid2215",
                             "left",
                             0,
-                            10654,
+                            11000,
                             "easeOutSine",
-                            "${text1Copy30}",
+                            "${text1Copy31}",
                             '118px',
-                            '535px'
+                            '572px'
                         ],
                         [
-                            "eid1929",
-                            "color",
+                            "eid2078",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy16}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy32}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid1939",
-                            "line-height",
+                            "eid2098",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            '69px',
-                            '69px'
+                            "${text1Copy34}",
+                            '64px',
+                            '64px'
                         ],
                         [
-                            "eid2047",
-                            "line-height",
+                            "eid2035",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy29}",
-                            '69px',
-                            '69px'
-                        ],
-                        [
-                            "eid1891",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy13}",
-                            '69px',
-                            '69px'
+                            "${text1Copy27}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid2054",
@@ -3141,164 +3139,14 @@
                             '124px'
                         ],
                         [
-                            "eid2069",
-                            "font-size",
+                            "eid2212",
+                            "top",
                             0,
-                            0,
+                            10654,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid2173",
-                            "display",
-                            9329,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy21}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2176",
-                            "display",
-                            9905,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy21}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1988",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy22}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid412",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid2017",
-                            "text-indent",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy25}",
-                            '64px',
-                            '64px'
-                        ],
-                        [
-                            "eid2008",
-                            "text-indent",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy24}",
-                            '64px',
-                            '64px'
-                        ],
-                        [
-                            "eid1771",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy7}",
-                            '124px',
-                            '124px'
-                        ],
-                        [
-                            "eid1561",
-                            "display",
-                            9500,
-                            0,
-                            "easeOutSine",
-                            "${c4}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1560",
-                            "display",
-                            8750,
-                            0,
-                            "easeOutSine",
-                            "${water2}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1941",
-                            "color",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy17}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1839",
-                            "left",
-                            611,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy12}",
-                            '118px',
-                            '118px'
-                        ],
-                        [
-                            "eid1840",
-                            "left",
-                            664,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy12}",
-                            '118px',
-                            '118px'
-                        ],
-                        [
-                            "eid1780",
-                            "display",
-                            2382,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy8}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1781",
-                            "display",
-                            2924,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy8}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1947",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy17}",
-                            '627px',
-                            '627px'
+                            "${text1Copy30}",
+                            '885px',
+                            '955px'
                         ],
                         [
                             "eid2015",
@@ -3311,24 +3159,144 @@
                             '32px'
                         ],
                         [
-                            "eid2038",
+                            "eid1893",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy13}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid2247",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '627px',
+                            '627px'
+                        ],
+                        [
+                            "eid1752",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy6}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1908",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy14}",
+                            '627px',
+                            '627px'
+                        ],
+                        [
+                            "eid1927",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
+                            "${text1Copy16}",
                             '69px',
                             '69px'
                         ],
                         [
-                            "eid1792",
-                            "font-size",
+                            "eid2170",
+                            "left",
+                            0,
+                            5723,
+                            "easeOutSine",
+                            "${text1Copy20}",
+                            '118px',
+                            '128px'
+                        ],
+                        [
+                            "eid1560",
+                            "display",
+                            8750,
+                            0,
+                            "easeOutSine",
+                            "${water2}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1933",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy9}",
-                            '32px',
-                            '32px'
+                            "${text1Copy16}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid1559",
+                            "display",
+                            8000,
+                            0,
+                            "easeOutSine",
+                            "${water1}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2228",
+                            "top",
+                            0,
+                            12000,
+                            "easeOutSine",
+                            "${text1Copy34}",
+                            '885px',
+                            '1023px'
+                        ],
+                        [
+                            "eid2013",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy25}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1995",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy23}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1945",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy17}",
+                            '64px',
+                            '64px'
+                        ],
+                        [
+                            "eid1999",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy23}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid2018",
@@ -3371,14 +3339,24 @@
                             '32px'
                         ],
                         [
-                            "eid1847",
-                            "left",
-                            829,
+                            "eid2158",
+                            "display",
+                            7750,
                             0,
                             "easeOutSine",
-                            "${text1Copy11}",
-                            '155px',
-                            '155px'
+                            "${text1Copy17}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2159",
+                            "display",
+                            8049,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy17}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1584",
@@ -3411,14 +3389,14 @@
                             '5px'
                         ],
                         [
-                            "eid2042",
-                            "width",
+                            "eid1580",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            '627px',
-                            '627px'
+                            "${text1Copy}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1774",
@@ -3441,14 +3419,14 @@
                             '498px'
                         ],
                         [
-                            "eid1945",
-                            "text-indent",
+                            "eid2038",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            '64px',
-                            '64px'
+                            "${text1Copy28}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2226",
@@ -3501,14 +3479,14 @@
                             '69px'
                         ],
                         [
-                            "eid1949",
-                            "letter-spacing",
+                            "eid1792",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy18}",
-                            '5px',
-                            '5px'
+                            "${text1Copy9}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1955",
@@ -3521,24 +3499,14 @@
                             '124px'
                         ],
                         [
-                            "eid1581",
-                            "top",
+                            "eid2042",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            '885px',
-                            '885px'
-                        ],
-                        [
-                            "eid2056",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy30}",
-                            '69px',
-                            '69px'
+                            "${text1Copy28}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid1820",
@@ -3549,6 +3517,16 @@
                             "${text1Copy12}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid2056",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy30}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2058",
@@ -3571,14 +3549,14 @@
                             '5px'
                         ],
                         [
-                            "eid2190",
-                            "top",
+                            "eid1814",
+                            "height",
                             0,
-                            6750,
+                            0,
                             "easeOutSine",
-                            "${text1Copy25}",
-                            '885px',
-                            '954px'
+                            "${text1Copy11}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid2045",
@@ -3591,34 +3569,24 @@
                             '124px'
                         ],
                         [
-                            "eid1775",
-                            "color",
+                            "eid1984",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy8}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy22}",
+                            '69px',
+                            '69px'
                         ],
                         [
-                            "eid1793",
-                            "display",
-                            1799,
+                            "eid1582",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy9}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1794",
-                            "display",
-                            2382,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy9}",
-                            'block',
-                            'none'
+                            "${text1Copy}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid2202",
@@ -3631,24 +3599,14 @@
                             '953px'
                         ],
                         [
-                            "eid2230",
-                            "display",
-                            16885,
+                            "eid2198",
+                            "top",
                             0,
+                            7113,
                             "easeOutSine",
-                            "${text1Copy35}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid2233",
-                            "display",
-                            17400,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy35}",
-                            'block',
-                            'none'
+                            "${text1Copy27}",
+                            '885px',
+                            '954px'
                         ],
                         [
                             "eid2085",
@@ -3661,24 +3619,14 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1973",
-                            "height",
+                            "eid2197",
+                            "left",
                             0,
-                            0,
+                            7113,
                             "easeOutSine",
-                            "${text1Copy20}",
-                            '124px',
-                            '124px'
-                        ],
-                        [
-                            "eid1784",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy9}",
-                            '69px',
-                            '69px'
+                            "${text1Copy27}",
+                            '118px',
+                            '387px'
                         ],
                         [
                             "eid1543",
@@ -3731,44 +3679,14 @@
                             '627px'
                         ],
                         [
-                            "eid2076",
-                            "color",
+                            "eid1791",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy32}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid2231",
-                            "left",
-                            0,
-                            12324,
-                            "easeOutSine",
-                            "${text1Copy35}",
-                            '118px',
-                            '128px'
-                        ],
-                        [
-                            "eid2055",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy29}",
-                            '627px',
-                            '627px'
-                        ],
-                        [
-                            "eid1956",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy18}",
-                            '32px',
-                            '32px'
+                            "${text1Copy9}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid2103",
@@ -3781,6 +3699,46 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
+                            "eid2230",
+                            "display",
+                            16885,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy35}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid2233",
+                            "display",
+                            17400,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy35}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1956",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy18}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid2231",
+                            "left",
+                            0,
+                            12324,
+                            "easeOutSine",
+                            "${text1Copy35}",
+                            '118px',
+                            '128px'
+                        ],
+                        [
                             "eid1808",
                             "color",
                             0,
@@ -3789,56 +3747,6 @@
                             "${text1Copy11}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1539",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${stone}",
-                            '110px',
-                            '110px'
-                        ],
-                        [
-                            "eid1931",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy16}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid2027",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy26}",
-                            '124px',
-                            '124px'
-                        ],
-                        [
-                            "eid1979",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy21}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid2048",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy29}",
-                            '5px',
-                            '5px'
                         ],
                         [
                             "eid2201",
@@ -3851,6 +3759,56 @@
                             '425px'
                         ],
                         [
+                            "eid2048",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy29}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1979",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy21}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid2244",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy2}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1931",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy16}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid1539",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${stone}",
+                            '110px',
+                            '110px'
+                        ],
+                        [
                             "eid2037",
                             "width",
                             0,
@@ -3861,74 +3819,84 @@
                             '627px'
                         ],
                         [
-                            "eid1791",
-                            "height",
+                            "eid2055",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy9}",
-                            '124px',
-                            '124px'
+                            "${text1Copy29}",
+                            '627px',
+                            '627px'
                         ],
                         [
-                            "eid1796",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid2197",
-                            "left",
-                            0,
-                            7113,
-                            "easeOutSine",
-                            "${text1Copy27}",
-                            '118px',
-                            '387px'
-                        ],
-                        [
-                            "eid2198",
-                            "top",
-                            0,
-                            7113,
-                            "easeOutSine",
-                            "${text1Copy27}",
-                            '885px',
-                            '954px'
-                        ],
-                        [
-                            "eid1582",
-                            "text-indent",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy}",
-                            '64px',
-                            '64px'
-                        ],
-                        [
-                            "eid1984",
+                            "eid1784",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy22}",
+                            "${text1Copy9}",
                             '69px',
                             '69px'
                         ],
                         [
-                            "eid1814",
+                            "eid1793",
+                            "display",
+                            1295,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy9}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1794",
+                            "display",
+                            1799,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy9}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid2076",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy32}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1973",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy11}",
+                            "${text1Copy20}",
                             '124px',
                             '124px'
+                        ],
+                        [
+                            "eid1775",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy8}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid2190",
+                            "top",
+                            0,
+                            6750,
+                            "easeOutSine",
+                            "${text1Copy25}",
+                            '885px',
+                            '954px'
                         ],
                         [
                             "eid2066",
@@ -3941,44 +3909,34 @@
                             '5px'
                         ],
                         [
-                            "eid1580",
-                            "font-size",
+                            "eid2250",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            '32px',
-                            '32px'
+                            "${text1Copy2}",
+                            '124px',
+                            '124px'
                         ],
                         [
-                            "eid2158",
-                            "display",
-                            7750,
+                            "eid1847",
+                            "left",
+                            829,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            'none',
-                            'block'
+                            "${text1Copy11}",
+                            '155px',
+                            '155px'
                         ],
                         [
-                            "eid2159",
-                            "display",
-                            8049,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy17}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1999",
-                            "text-indent",
+                            "eid1949",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy23}",
-                            '64px',
-                            '64px'
+                            "${text1Copy18}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid2033",
@@ -4001,34 +3959,44 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2228",
-                            "top",
+                            "eid1976",
+                            "letter-spacing",
                             0,
-                            12000,
+                            0,
                             "easeOutSine",
-                            "${text1Copy34}",
-                            '885px',
-                            '1023px'
+                            "${text1Copy21}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1559",
-                            "display",
-                            8000,
+                            "eid838",
+                            "font-size",
+                            0,
                             0,
                             "easeOutSine",
-                            "${water1}",
+                            "${text1}",
+                            '32px',
+                            '32px'
+                        ],
+                        [
+                            "eid2210",
+                            "display",
+                            14428,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy30}",
                             'none',
                             'block'
                         ],
                         [
-                            "eid1933",
-                            "text-indent",
-                            0,
+                            "eid2213",
+                            "display",
+                            14851,
                             0,
                             "easeOutSine",
-                            "${text1Copy16}",
-                            '64px',
-                            '64px'
+                            "${text1Copy30}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid2160",
@@ -4041,24 +4009,24 @@
                             '636px'
                         ],
                         [
-                            "eid1927",
-                            "line-height",
+                            "eid1771",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy16}",
-                            '69px',
-                            '69px'
+                            "${text1Copy7}",
+                            '124px',
+                            '124px'
                         ],
                         [
-                            "eid1908",
-                            "width",
+                            "eid1758",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy14}",
-                            '627px',
-                            '627px'
+                            "${text1Copy6}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid1954",
@@ -4071,34 +4039,24 @@
                             '64px'
                         ],
                         [
-                            "eid2200",
-                            "display",
-                            12191,
+                            "eid1963",
+                            "text-indent",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            'none',
-                            'block'
+                            "${text1Copy19}",
+                            '64px',
+                            '64px'
                         ],
                         [
-                            "eid2203",
-                            "display",
-                            12559,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy28}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1893",
-                            "color",
+                            "eid1779",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy13}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy8}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid1747",
@@ -4121,14 +4079,14 @@
                             'none'
                         ],
                         [
-                            "eid2035",
-                            "text-indent",
+                            "eid1947",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy27}",
-                            '64px',
-                            '64px'
+                            "${text1Copy17}",
+                            '627px',
+                            '627px'
                         ],
                         [
                             "eid2022",
@@ -4141,64 +4099,74 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2215",
-                            "left",
+                            "eid1929",
+                            "color",
                             0,
-                            11000,
+                            0,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            '118px',
-                            '572px'
+                            "${text1Copy16}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1972",
+                            "eid1780",
+                            "display",
+                            2382,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy8}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1781",
+                            "display",
+                            2924,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy8}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1941",
+                            "color",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy17}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid2008",
                             "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy20}",
+                            "${text1Copy24}",
                             '64px',
                             '64px'
                         ],
                         [
-                            "eid2072",
-                            "height",
+                            "eid1967",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy31}",
-                            '124px',
-                            '124px'
+                            "${text1Copy20}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1993",
+                            "eid1773",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy23}",
+                            "${text1Copy8}",
                             '69px',
                             '69px'
-                        ],
-                        [
-                            "eid2028",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${text1Copy26}",
-                            '32px',
-                            '32px'
-                        ],
-                        [
-                            "eid1778",
-                            "top",
-                            0,
-                            1500,
-                            "easeOutSine",
-                            "${text1Copy8}",
-                            '788px',
-                            '884px'
                         ],
                         [
                             "eid2067",
@@ -4211,14 +4179,14 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2183",
-                            "top",
+                            "eid2010",
+                            "font-size",
                             0,
-                            6360,
+                            0,
                             "easeOutSine",
-                            "${text1Copy23}",
-                            '885px',
-                            '955px'
+                            "${text1Copy24}",
+                            '32px',
+                            '32px'
                         ],
                         [
                             "eid1772",
@@ -4231,54 +4199,44 @@
                             '627px'
                         ],
                         [
-                            "eid1813",
-                            "text-indent",
+                            "eid1961",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy11}",
-                            '64px',
-                            '64px'
+                            "${text1Copy19}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid2224",
-                            "top",
-                            0,
-                            11626,
+                            "eid2254",
+                            "left",
+                            1250,
+                            45,
                             "easeOutSine",
-                            "${text1Copy33}",
-                            '885px',
-                            '1023px'
+                            "${text1Copy9}",
+                            '229px',
+                            '192px'
                         ],
                         [
-                            "eid1920",
-                            "display",
-                            4458,
+                            "eid2069",
+                            "font-size",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            'none',
-                            'block'
+                            "${text1Copy31}",
+                            '32px',
+                            '32px'
                         ],
                         [
-                            "eid1921",
-                            "display",
-                            4961,
+                            "eid2040",
+                            "color",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid2163",
-                            "top",
-                            0,
-                            5250,
-                            "easeOutSine",
-                            "${text1Copy18}",
-                            '885px',
-                            '954px'
+                            "${text1Copy28}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid2167",
@@ -4291,14 +4249,14 @@
                             '953px'
                         ],
                         [
-                            "eid2057",
-                            "letter-spacing",
+                            "eid2047",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy30}",
-                            '5px',
-                            '5px'
+                            "${text1Copy29}",
+                            '69px',
+                            '69px'
                         ],
                         [
                             "eid2094",
@@ -4311,14 +4269,24 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2044",
-                            "text-indent",
-                            0,
+                            "eid1769",
+                            "display",
+                            2924,
                             0,
                             "easeOutSine",
-                            "${text1Copy28}",
-                            '64px',
-                            '64px'
+                            "${text1Copy7}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1770",
+                            "display",
+                            3425,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy7}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid2049",
@@ -4331,43 +4299,34 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1800",
-                            "top",
+                            "eid2036",
+                            "height",
                             0,
-                            1039,
-                            "easeOutSine",
-                            "${text1Copy10}",
-                            '788px',
-                            '885px'
-                        ],
-                        [
-                            "eid1553",
-                            "location",
-                            5250,
-                            3500,
-                            "easeOutSine",
-                            "${stoneCopy3}",
-                            [[371.5, 40.5, 0, 0, 0, 0,0],[361.25, 123.49, -19.45, 87.45, -32.32, 145.3,83.76],[343.21, 218.47, -3.97, 38.61, -9.98, 97.13,180.49],[360.83, 260.23, -4.66, 180.14, -0.95, 36.6,226.27],[338, 366.5, 0, 0, 0, 0,335.56],[340.09, 460.58, 0, 0, 0, 0,429.66],[324.47, 525.39, 0, 0, 0, 0,496.33],[377, 760.5, 0, 0, 0, 0,737.24]]
-                        ],
-                        [
-                            "eid1918",
-                            "display",
-                            4961,
                             0,
                             "easeOutSine",
-                            "${text1Copy13}",
-                            'none',
-                            'block'
+                            "${text1Copy27}",
+                            '124px',
+                            '124px'
                         ],
                         [
-                            "eid1922",
-                            "display",
-                            5402,
+                            "eid1970",
+                            "width",
+                            0,
                             0,
                             "easeOutSine",
-                            "${text1Copy13}",
-                            'block',
-                            'none'
+                            "${text1Copy20}",
+                            '627px',
+                            '627px'
+                        ],
+                        [
+                            "eid2089",
+                            "text-indent",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1Copy33}",
+                            '64px',
+                            '64px'
                         ],
                         [
                             "eid2220",
@@ -4380,34 +4339,34 @@
                             '954px'
                         ],
                         [
-                            "eid1826",
-                            "font-size",
+                            "eid1950",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy12}",
-                            '32px',
-                            '32px'
+                            "${text1Copy18}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1974",
-                            "font-size",
-                            0,
+                            "eid1936",
+                            "display",
+                            5809,
                             0,
                             "easeOutSine",
-                            "${text1Copy20}",
-                            '32px',
-                            '32px'
+                            "${text1Copy15}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid1940",
-                            "letter-spacing",
-                            0,
+                            "eid1937",
+                            "display",
+                            6130,
                             0,
                             "easeOutSine",
-                            "${text1Copy17}",
-                            '5px',
-                            '5px'
+                            "${text1Copy15}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1585",
@@ -4420,44 +4379,54 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid2092",
+                            "eid2083",
                             "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy34}",
+                            "${text1Copy33}",
                             '69px',
                             '69px'
                         ],
                         [
-                            "eid2109",
-                            "font-size",
-                            0,
+                            "eid2185",
+                            "display",
+                            10809,
                             0,
                             "easeOutSine",
-                            "${text1Copy35}",
-                            '32px',
-                            '32px'
+                            "${text1Copy24}",
+                            'none',
+                            'block'
                         ],
                         [
-                            "eid2031",
-                            "color",
-                            0,
+                            "eid2188",
+                            "display",
+                            11105,
                             0,
                             "easeOutSine",
-                            "${text1Copy27}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${text1Copy24}",
+                            'block',
+                            'none'
                         ],
                         [
-                            "eid1981",
-                            "text-indent",
+                            "eid1910",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${text1Copy21}",
-                            '64px',
-                            '64px'
+                            "${text1Copy15}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid436",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${text1}",
+                            '124px',
+                            '124px'
                         ],
                         [
                             "eid2102",

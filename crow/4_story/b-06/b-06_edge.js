@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -101,7 +101,7 @@
                             display: 'block',
                             rect: ['0px', '0px', '1078px', '763px', 'auto', 'auto'],
                             id: 'bg2',
-                            fill: ['rgba(0,0,0,0)', 'images/bg.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg6.jpg', '0px', '0px']
                         },
                         {
                             transform: [[], ['-3'], [0, 0, 0], [1, 1, 1]],
@@ -109,14 +109,14 @@
                             id: 'corvus',
                             display: 'block',
                             rect: ['201px', '205px', '387px', '515px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/corvus.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['459px', '169px', '402px', '535px', 'auto', 'auto'],
                             id: 'corvus2',
-                            fill: ['rgba(0,0,0,0)', 'images/corvus2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus2.png', '0px', '0px']
                         },
                         {
                             transform: [[], [], [], ['0.99', '0.99']],
@@ -124,14 +124,14 @@
                             id: 'think2',
                             display: 'none',
                             rect: ['369px', '95px', '275px', '165px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/think.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/think.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['383px', '101px', '146px', '108px', 'auto', 'auto'],
                             id: 'stone',
-                            fill: ['rgba(0,0,0,0)', 'images/stone.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/stone.png', '0px', '0px']
                         },
                         {
                             transform: [[], [], [], ['1.9', '1.9']],
@@ -139,7 +139,7 @@
                             id: 'idea1',
                             display: 'none',
                             rect: ['379px', '86px', '124px', '124px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/idea1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/idea1.png', '0px', '0px']
                         },
                         {
                             type: 'rect',

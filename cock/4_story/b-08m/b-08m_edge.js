@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -106,7 +106,7 @@
                                 id: 'bg2Copy',
                                 type: 'image',
                                 rect: ['62px', '28px', '652px', '462px', 'auto', 'auto'],
-                                fill: ['rgba(0,0,0,0)', 'images/bg2.jpg', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/bg8.jpg', '0px', '0px']
                             },
                             {
                                 rect: ['90px', '279px', '138px', '150px', 'auto', 'auto'],
@@ -114,7 +114,7 @@
                                 id: 'chickenCopy',
                                 opacity: 0,
                                 type: 'image',
-                                fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/chicken8.png', '0px', '0px']
                             },
                             {
                                 rect: ['486px', '148px', '341px', '373px', 'auto', 'auto'],
@@ -122,14 +122,14 @@
                                 id: 'horseCopy',
                                 opacity: 0,
                                 display: 'block',
-                                fill: ['rgba(0,0,0,0)', 'images/horse.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/horse.png', '0px', '0px']
                             },
                             {
                                 rect: ['312px', '62px', '341px', '373px', 'auto', 'auto'],
                                 id: 'horse2Copy',
                                 type: 'image',
                                 display: 'none',
-                                fill: ['rgba(0,0,0,0)', 'images/horse2.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/horse2.png', '0px', '0px']
                             }]
                         },
                         {

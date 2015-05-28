@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -110,7 +110,7 @@
                             display: 'block',
                             rect: ['1885px', '62px', '2605px', '1288px', 'auto', 'auto'],
                             id: 'bg12',
-                            fill: ['rgba(0,0,0,0)', 'images/bg12.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg12.jpg', '0px', '0px']
                         },
                         {
                             transform: [[], [], [], ['1.19', '1.19']],
@@ -118,7 +118,7 @@
                             id: 'bg2',
                             display: 'none',
                             rect: ['1102px', '0px', '1549px', '1095px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/bg2.jpg', '0px', '0px', '100%', '100%', 'no-repeat']
+                            fill: ['rgba(0,0,0,0)', '../images/bg2.jpg', '0px', '0px', '100%', '100%', 'no-repeat']
                         },
                         {
                             type: 'rect',
@@ -597,7 +597,7 @@
                             display: 'block',
                             id: 'corvus',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus42.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus42.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -605,7 +605,7 @@
                             display: 'none',
                             id: 'corvus2',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus222.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus222.png', '0px', '0px']
                         },
                         {
                             transform: [[], [], [], ['1', '0.98']],
@@ -614,7 +614,7 @@
                             id: 'corvusCopy',
                             display: 'none',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus43.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus43.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -622,7 +622,7 @@
                             display: 'none',
                             id: 'corvus2Copy',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus223.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus223.png', '0px', '0px']
                         }
                     ],
                     style: {

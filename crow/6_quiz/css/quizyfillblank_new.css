@@ -107,70 +107,114 @@ Droppable elements styles
 	-ms-transform-origin: 0 0;
 }
 
-#fillblank-text{top:10px; font-size:28px; border: 2px solid #e49711;
-  border-radius: 4px;
-  padding: 10px 0; width:245px;}
+#fillblank-text{
+	top:10px;
+	font-size:28px;
+	border: 2px solid #e49711;
+	border-radius: 4px;
+	padding: 10px 0;
+	width:230px;
+	box-sizing: border-box;
+}
 
-#fillblank-ph{top:85px; padding-left:10px;}
+#fillblank-ph{
+	top:85px;
+	padding-left:10px;
+}
 
-#Correct{top:120px; font-size:18px; color:#0050CB;}
-#Correct a{color:#FF5700;}
+#Correct{
+	top:120px;
+	font-size:18px;
+	color:#0050CB;
+}
+#Correct a{
+	color:#FF5700;
+}
 
 .quizy-fitb-answer{
-  cursor: move;
-  width:24px !important;
-  margin-right:6px;
-  padding: 5px 4px;
-  text-align: center;
-  color:#000;
-  font-weight:bold;
-  border-radius: 3px;
-  border:1px solid #DD6D00;
-  box-shadow: 2px 2px 6px #A15F1D;
-  background:#FC6;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC6', endColorstr='#F90') progid:DXImageTransform.Microsoft.Shadow(color='#FFF', Direction=135, Strength=3) !important;
-  background: -webkit-gradient(linear, left top, left bottom, from(#FC6), to(#F90));
-  background: -moz-linear-gradient(top,  #FC6,  #F90);
-  position:relative;
-  float:left;
-  transform-origin: 0 0;
-  -webkit-transform-origin: 0 0;
-  -o-transform-origin: 0 0;
-  -ms-transform-origin: 0 0;
+	cursor: move;
+	margin-right:6px;
+	padding: 5px 4px;
+	text-align: center;
+	color:#000;
+	font-weight:bold;
+	border-radius: 3px;
+	border:1px solid #DD6D00;
+	box-shadow: 2px 2px 6px #A15F1D;
+	background:#FC6;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FC6', endColorstr='#F90') progid:DXImageTransform.Microsoft.Shadow(color='#FFF', Direction=135, Strength=3) !important;
+	background: -webkit-gradient(linear, left top, left bottom, from(#FC6), to(#F90));
+	background: -moz-linear-gradient(top,  #FC6,  #F90);
+	position:relative;
+	float:left;
+	transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
 }
 
 /* Droppable elements styles */
 .quizy-fitb-droptarget{
-  font-size:26px;
-  width:40px;
-  display:inline-block;
-  color:#FFF;
-  overflow:hidden;
-  border-bottom:2px solid #000;
+	font-size:26px;
+	width:40px;
+	display:inline-block;
+	color:rgba(255, 255, 255, 0);
+	overflow:hidden;
+	border-bottom:2px solid #000;
 }
 
 .quizy-fitb-droptarget-hover{
-  color:#555;
-  font-weight:bold;
-  background:#555;
+	color:#555;
+	font-weight:bold;
+	background:#555;
 }
 
-
 .quizy-fitb-dropelement-disabled{
-  color:#FFF !important;
-  cursor:default;
+	color:#FFF !important;
+	cursor:default;
 }
 
 .quizy-fitb-dropelement.ui-draggable-dragging, .ph-dropelement-inline.ui-draggable-dragging{
-  background:#F90;
-  color:#000;
-  font-weight:bold;
+	background:#F90;
+	color:#000;
+	font-weight:bold;
 }
 
 .droppable-element.quizy-fitb-droptarget.ui-droppable.ui-droppable-disabled.ui-state-disabled{visibility: hidden;}
 
-@media only screen and (max-width:1000px) and (-webkit-min-device-pixel-ratio: 3), 
-@media only screen and (max-width:1000px) and (-webkit-min-device-pixel-ratio: 4){
-	#quizy{height:180px;}
-	#fillblank-text{font-size:28px;}
+.ANright, .ANfalse{
+	padding-left:35px;
+	height: 30px;
+	line-height: 30px;
+	display: inline-block;
+	background-position:left top;
+	background-repeat:no-repeat;
+	background-size:contain;
+}
+
+.ANright{
+	background-image:url(../images/ic_tick.png);
+}
+
+.ANfalse{
+	background-image:url(../images/ic_false.png);
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3){
+	#quizy{height:310px; font-size:36px;}
+	#quizy, #fillblank-text, #fillblank-ph, #Correct{width:380px;}
+	#fillblank-text, .quizy-fitb-droptarget{font-size:46px;}
+	.quizy-fitb-answer{font-size:32px; margin-right:10px;}
+	#Correct{font-size:28px; top:165px;}
+	#fillblank-ph{top:125px;}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3), 
+@media only screen and (-webkit-min-device-pixel-ratio: 4){
+	#quizy{height:190px; font-size:18px;}
+	#quizy, #fillblank-text, #fillblank-ph, #Correct{width:250px;}
+	#fillblank-text, .quizy-fitb-droptarget{font-size:26px;}
+	.quizy-fitb-answer{width:26px; font-size:19px; margin-right:5px;}
+	#Correct{font-size:16px; top:132px;}
+	#fillblank-ph{top:95px;}
 }

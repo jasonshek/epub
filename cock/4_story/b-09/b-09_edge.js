@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -44,7 +44,7 @@
                             id: 'bu_home',
                             type: 'image',
                             rect: ['167px', '1193px', '286px', '66px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"bu_home2.png",'0px','0px']
+                            fill: ["rgba(0,0,0,0)",im+"bu_home.png",'0px','0px']
                         },
                         {
                             id: 'bu_mandarin',
@@ -141,7 +141,7 @@
                             display: 'block',
                             rect: ['122px', '0px', '747px', '983px', 'auto', 'auto'],
                             id: 'pgCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/pg.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/pg.jpg', '0px', '0px']
                         },
                         {
                             transform: [[], [], [], ['1.2']],
@@ -149,14 +149,14 @@
                             id: 'pg_1Copy2',
                             display: 'none',
                             rect: ['122px', '452px', '652px', '461px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/pg_12.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/pg_12.jpg', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['0px', '447px', '644px', '455px', 'auto', 'auto'],
                             id: 'background_without_allCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/background_without_all.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/background_without_all.jpg', '0px', '0px']
                         },
                         {
                             transform: [[], ['-7'], [0, 0, 0], [1, 1, 1]],
@@ -164,7 +164,7 @@
                             id: 'sad_chickenCopy2',
                             display: 'none',
                             rect: ['344px', '608px', '211px', '249px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/sad_chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sad_chicken.png', '0px', '0px']
                         },
                         {
                             type: 'rect',
@@ -708,21 +708,21 @@
                             display: 'block',
                             rect: ['217px', '505px', '272px', '373px', 'auto', 'auto'],
                             id: 'horse_without_mouthCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/horse_without_mouth.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/horse_without_mouth.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'block',
                             rect: ['372px', '641px', '41px', '30px', 'auto', 'auto'],
                             id: 'mouth1Copy2',
-                            fill: ['rgba(0,0,0,0)', 'images/mouth1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/mouth1.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['174px', '584px', '62px', '51px', 'auto', 'auto'],
                             id: 'mouth22Copy2',
-                            fill: ['rgba(0,0,0,0)', 'images/mouth2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/mouth2.png', '0px', '0px']
                         },
                         {
                             transform: [[], ['-1'], [0, 0, 0], [1, 1, 1]],
@@ -730,35 +730,35 @@
                             id: 'mouth2Copy2',
                             display: 'none',
                             rect: ['358px', '628px', '56px', '43px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/mouth2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/mouth2.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['216px', '452px', '106px', '124px', 'auto', 'auto'],
                             id: 'beeCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/bee.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bee.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['382px', '465px', '95px', '97px', 'auto', 'auto'],
                             id: 'rabbitCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/rabbit.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/rabbit9.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['300px', '447px', '106px', '125px', 'auto', 'auto'],
                             id: 'frog5Copy2',
-                            fill: ['rgba(0,0,0,0)', 'images/frog.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/frog.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['454px', '453px', '118px', '115px', 'auto', 'auto'],
                             id: 'SquirrelCopy2',
-                            fill: ['rgba(0,0,0,0)', 'images/Squirrel.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/Squirrel9.png', '0px', '0px']
                         },
                         {
                             rect: ['-175px', '585px', '0', '0', 'auto', 'auto'],
@@ -770,21 +770,21 @@
                                 display: 'none',
                                 rect: ['385px', '-50px', '355px', '296px', 'auto', 'auto'],
                                 id: 'sun_bar3Copy2',
-                                fill: ['rgba(0,0,0,0)', 'images/sun_bar.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/sun_bar9.png', '0px', '0px']
                             },
                             {
                                 type: 'image',
                                 display: 'none',
                                 rect: ['426px', '-35px', '211px', '254px', 'auto', 'auto'],
                                 id: 'chickenCopy2',
-                                fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/chicken.png', '0px', '0px']
                             },
                             {
                                 type: 'image',
                                 display: 'none',
                                 rect: ['488px', '-36px', '211px', '255px', 'auto', 'auto'],
                                 id: 'chicken_mirror2Copy2',
-                                fill: ['rgba(0,0,0,0)', 'images/chicken_mirror2.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/chicken_mirror2.png', '0px', '0px']
                             }]
                         }
                     ],

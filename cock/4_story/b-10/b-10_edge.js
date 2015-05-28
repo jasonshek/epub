@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -38,7 +38,7 @@
                             id: 'bg_a1',
                             type: 'image',
                             rect: ['0', '0', '720px', '1280px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"bg_a12.png",'0px','0px']
+                            fill: ["rgba(0,0,0,0)",im+"bg_a1.png",'0px','0px']
                         },
                         {
                             id: 'bu_mandarin',
@@ -50,7 +50,7 @@
                             id: 'bu_home',
                             type: 'image',
                             rect: ['167px', '1193px', '286px', '66px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"bu_home2.png",'0px','0px']
+                            fill: ["rgba(0,0,0,0)",im+"bu_home.png",'0px','0px']
                         },
                         {
                             id: 'bu_l',
@@ -140,7 +140,7 @@
                             type: 'image',
                             id: 'background3Copy',
                             rect: ['227px', '0px', '1077px', '761px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/background3.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/background3.jpg', '0px', '0px']
                         },
                         {
                             preload: 'auto',
@@ -588,21 +588,21 @@
                             id: 'sunCopy3',
                             type: 'image',
                             display: 'block',
-                            fill: ['rgba(0,0,0,0)', 'images/sun.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sun.png', '0px', '0px']
                         },
                         {
                             rect: ['0px', '448px', '235px', '275px', 'auto', 'auto'],
                             id: 'chickenCopy',
                             type: 'image',
                             display: 'block',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken10.png', '0px', '0px']
                         },
                         {
                             rect: ['337px', '586px', '234px', '275px', 'auto', 'auto'],
                             id: 'chicken2Copy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken10.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -610,14 +610,14 @@
                             display: 'none',
                             rect: ['375px', '330px', '234px', '275px', 'auto', 'auto'],
                             id: 'chicken3Copy',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken10.png', '0px', '0px']
                         },
                         {
                             rect: ['426px', '330px', '211px', '248px', 'auto', 'auto'],
                             id: 'chicken_mirrCopy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/chicken_mirr.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken_mirr.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -626,49 +626,49 @@
                             id: 'sound_bar2Copy',
                             opacity: 0.95999999761581,
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/sound_bar.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sound_bar.png', '0px', '0px']
                         },
                         {
                             rect: ['244px', '507px', '107px', '207px', 'auto', 'auto'],
                             id: 'rabbitCopy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/rabbit.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/rabbit.png', '0px', '0px']
                         },
                         {
                             rect: ['732px', '480px', '206px', '226px', 'auto', 'auto'],
                             id: 'horseCopy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/horse.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/horse10.png', '0px', '0px']
                         },
                         {
                             rect: ['801px', '673px', '135px', '117px', 'auto', 'auto'],
                             id: 'frog2Copy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/frog2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/frog2.png', '0px', '0px']
                         },
                         {
                             rect: ['726px', '593px', '155px', '124px', 'auto', 'auto'],
                             id: 'SquirrelCopy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/Squirrel.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/Squirrel.png', '0px', '0px']
                         },
                         {
                             rect: ['445px', '600px', '135px', '109px', 'auto', 'auto'],
                             id: 'Squirrel_mirrCopy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/Squirrel_mirr.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/Squirrel_mirr.png', '0px', '0px']
                         },
                         {
                             rect: ['789px', '323px', '86px', '86px', 'auto', 'auto'],
                             id: 'sunCopy2',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/sun.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sun.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -676,7 +676,7 @@
                             display: 'none',
                             rect: ['727px', '278px', '210px', '175px', 'auto', 'auto'],
                             id: 'sun_bar2Copy',
-                            fill: ['rgba(0,0,0,0)', 'images/sun_bar.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sun_bar9.png', '0px', '0px']
                         }
                     ],
                     style: {

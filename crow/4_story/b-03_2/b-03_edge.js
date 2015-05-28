@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -100,7 +100,7 @@
                             rect: ['0px', '0px', '2605px', '1288px', 'auto', 'auto'],
                             id: 'bg12',
                             type: 'image',
-                            fill: ['rgba(0,0,0,0)', 'images/bg12.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg12.jpg', '0px', '0px']
                         },
                         {
                             preload: 'auto',
@@ -495,7 +495,7 @@
                             display: 'block',
                             id: 'corvus',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus4.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus4.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -503,21 +503,21 @@
                             display: 'none',
                             id: 'corvus2',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus22.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus22.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['1423px', '278px', '468px', '346px', 'auto', 'auto'],
                             id: 'corvus3',
-                            fill: ['rgba(0,0,0,0)', 'images/corvus32.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus32.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'block',
                             rect: ['1383px', '263px', '469px', '347px', 'auto', 'auto'],
                             id: 'corvu4',
-                            fill: ['rgba(0,0,0,0)', 'images/corvu42.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvu42.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -525,7 +525,7 @@
                             display: 'block',
                             id: 'corvusCopy',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus4.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus4.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -533,7 +533,7 @@
                             display: 'block',
                             id: 'corvus2Copy',
                             autoOrient: false,
-                            fill: ['rgba(0,0,0,0)', 'images/corvus22.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus22.png', '0px', '0px']
                         }
                     ],
                     style: {

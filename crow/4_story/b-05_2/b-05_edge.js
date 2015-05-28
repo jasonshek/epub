@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -101,28 +101,28 @@
                             display: 'block',
                             rect: ['0px', '183px', '1363px', '964px', 'auto', 'auto'],
                             id: '_33_3',
-                            fill: ['rgba(0,0,0,0)', 'images/3.3_.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/3.3_.jpg', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['599px', '183px', '1363px', '964px', 'auto', 'auto'],
                             id: '_33_24',
-                            fill: ['rgba(0,0,0,0)', 'images/3.3_2.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/3.3_2.jpg', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['345px', '0px', '1882px', '1330px', 'auto', 'auto'],
                             id: 'bg2',
-                            fill: ['rgba(0,0,0,0)', 'images/bg.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg.jpg', '0px', '0px']
                         },
                         {
                             type: 'image',
                             display: 'none',
                             rect: ['457px', '354px', '893px', '782px', 'auto', 'auto'],
                             id: 'c1',
-                            fill: ['rgba(0,0,0,0)', 'images/c1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/c1.png', '0px', '0px']
                         },
                         {
                             type: 'rect',

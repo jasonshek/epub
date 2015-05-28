@@ -19,19 +19,19 @@
         ],
         symbols = {
             "stage": {
-                version: "5.0.0",
+                version: "5.0.1",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
+                build: "5.0.1.386",
                 scaleToFit: "none",
                 centerStage: "none",
                 resizeInstances: false,
                 content: {
                     dom: [
                         {
-                            id: 't01',
-                            type: 'image',
-                            rect: ['1px', '-1px', '720px', '1280px', 'auto', 'auto'],
-                            fill: ["rgba(0,0,0,0)",im+"t01.png",'0px','0px']
+                            id: 'symbols_animation',
+                            symbolName: 'symbols_animation',
+                            type: 'rect',
+                            rect: ['1px', '-1', '720', '1280', 'auto', 'auto']
                         },
                         {
                             id: 'bg_a1',
@@ -64,22 +64,10 @@
                             fill: ["rgba(0,0,0,0)",im+"bu_r.png",'0px','0px']
                         },
                         {
-                            id: 'cantonese_1',
-                            display: 'none',
-                            volume: '1',
-                            type: 'audio',
-                            tag: 'audio',
-                            rect: ['-472', '992', '320px', '45px', 'auto', 'auto'],
-                            source: ['images/cantonese_1.mp3'],
-                            preload: 'auto'
-                        },
-                        {
-                            id: 'Rectangle3',
-                            type: 'rect',
-                            rect: ['59px', '424px', '593px', '61px', 'auto', 'auto'],
-                            opacity: 0,
-                            fill: ["rgba(255,255,255,0)"],
-                            stroke: [5,"rgb(0, 185, 29)","dotted"]
+                            id: 'play_button2',
+                            type: 'image',
+                            rect: ['310px', '542px', '120px', '120px', 'auto', 'auto'],
+                            fill: ["rgba(0,0,0,0)",im+"play_button.png",'0px','0px']
                         }
                     ],
                     style: {
@@ -92,8 +80,117 @@
                     }
                 },
                 timeline: {
-                    duration: 42501,
+                    duration: 0,
                     autoPlay: true,
+                    data: [
+
+                    ]
+                }
+            },
+            "highlight": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '593px', '62px', 'auto', 'auto'],
+                            opacity: '0',
+                            id: 'Rectangle',
+                            stroke: [6, 'rgba(255,0,0,0.50)', 'dotted'],
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,0.00)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '605px', '74px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 789,
+                    autoPlay: true,
+                    data: [
+                        [
+                            "eid46",
+                            "opacity",
+                            0,
+                            0,
+                            "linear",
+                            "${Rectangle}",
+                            '1',
+                            '1'
+                        ],
+                        [
+                            "eid51",
+                            "opacity",
+                            503,
+                            139,
+                            "linear",
+                            "${Rectangle}",
+                            '1',
+                            '0.3'
+                        ],
+                        [
+                            "eid52",
+                            "opacity",
+                            642,
+                            147,
+                            "linear",
+                            "${Rectangle}",
+                            '0.300000',
+                            '1'
+                        ]
+                    ]
+                }
+            },
+            "symbols_animation": {
+                version: "5.0.1",
+                minimumCompatibleVersion: "5.0.0",
+                build: "5.0.1.386",
+                scaleToFit: "none",
+                centerStage: "none",
+                resizeInstances: false,
+                content: {
+                    dom: [
+                        {
+                            rect: ['0px', '0px', '720px', '1280px', 'auto', 'auto'],
+                            id: 't01',
+                            type: 'image',
+                            fill: ['rgba(0,0,0,0)', 'images/t01.png', '0px', '0px']
+                        },
+                        {
+                            type: 'audio',
+                            source: ['images/cantonese_1.mp3'],
+                            id: 'cantonese_1',
+                            preload: 'auto',
+                            rect: ['-473px', '993px', '320px', '45px', 'auto', 'auto'],
+                            volume: '1',
+                            display: 'none',
+                            tag: 'audio'
+                        },
+                        {
+                            rect: ['58px', '425px', '593px', '61px', 'auto', 'auto'],
+                            opacity: '0',
+                            id: 'Rectangle3',
+                            stroke: [5, 'rgb(0, 185, 29)', 'dotted'],
+                            type: 'rect',
+                            fill: ['rgba(255,255,255,0)']
+                        }
+                    ],
+                    style: {
+                        '${symbolSelector}': {
+                            rect: [null, null, '720px', '1280px']
+                        }
+                    }
+                },
+                timeline: {
+                    duration: 42501,
+                    autoPlay: false,
                     data: [
                         [
                             "eid126",
@@ -102,8 +199,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid140",
@@ -112,8 +209,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid141",
@@ -122,8 +219,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid143",
@@ -132,8 +229,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid150",
@@ -142,8 +239,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid153",
@@ -152,8 +249,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid161",
@@ -162,8 +259,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid164",
@@ -172,8 +269,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid168",
@@ -182,8 +279,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid173",
@@ -192,8 +289,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid177",
@@ -202,8 +299,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid185",
@@ -212,8 +309,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid188",
@@ -222,8 +319,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid192",
@@ -232,8 +329,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid197",
@@ -242,8 +339,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid200",
@@ -252,8 +349,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid204",
@@ -262,8 +359,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid209",
@@ -272,8 +369,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid212",
@@ -282,8 +379,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid216",
@@ -292,8 +389,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '59px',
-                            '59px'
+                            '58px',
+                            '58px'
                         ],
                         [
                             "eid127",
@@ -302,8 +399,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '424px'
+                            '425px',
+                            '425px'
                         ],
                         [
                             "eid129",
@@ -312,8 +409,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '424px'
+                            '425px',
+                            '425px'
                         ],
                         [
                             "eid147",
@@ -322,8 +419,8 @@
                             454,
                             "linear",
                             "${Rectangle3}",
-                            '424px',
-                            '498px'
+                            '425px',
+                            '499px'
                         ],
                         [
                             "eid149",
@@ -332,8 +429,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '498px',
-                            '498px'
+                            '499px',
+                            '499px'
                         ],
                         [
                             "eid158",
@@ -342,8 +439,8 @@
                             555,
                             "linear",
                             "${Rectangle3}",
-                            '498px',
-                            '571px'
+                            '499px',
+                            '572px'
                         ],
                         [
                             "eid160",
@@ -352,8 +449,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '571px',
-                            '571px'
+                            '572px',
+                            '572px'
                         ],
                         [
                             "eid170",
@@ -362,8 +459,8 @@
                             570,
                             "linear",
                             "${Rectangle3}",
-                            '571px',
-                            '645px'
+                            '572px',
+                            '646px'
                         ],
                         [
                             "eid172",
@@ -372,8 +469,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '645px',
-                            '645px'
+                            '646px',
+                            '646px'
                         ],
                         [
                             "eid182",
@@ -382,8 +479,8 @@
                             533,
                             "linear",
                             "${Rectangle3}",
-                            '645px',
-                            '719px'
+                            '646px',
+                            '720px'
                         ],
                         [
                             "eid184",
@@ -392,8 +489,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '719px',
-                            '719px'
+                            '720px',
+                            '720px'
                         ],
                         [
                             "eid194",
@@ -402,8 +499,8 @@
                             420,
                             "linear",
                             "${Rectangle3}",
-                            '719px',
-                            '792px'
+                            '720px',
+                            '793px'
                         ],
                         [
                             "eid196",
@@ -412,8 +509,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '792px',
-                            '792px'
+                            '793px',
+                            '793px'
                         ],
                         [
                             "eid206",
@@ -422,8 +519,8 @@
                             425,
                             "linear",
                             "${Rectangle3}",
-                            '792px',
-                            '866px'
+                            '793px',
+                            '867px'
                         ],
                         [
                             "eid208",
@@ -432,8 +529,8 @@
                             0,
                             "linear",
                             "${Rectangle3}",
-                            '866px',
-                            '866px'
+                            '867px',
+                            '867px'
                         ],
                         [
                             "eid218",
@@ -442,8 +539,8 @@
                             473,
                             "linear",
                             "${Rectangle3}",
-                            '866px',
-                            '939px'
+                            '867px',
+                            '940px'
                         ],
                         [
                             "eid125",
@@ -596,67 +693,6 @@
                             '1'
                         ],
                             [ "eid29", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${cantonese_1}', [] ] ]
-                    ]
-                }
-            },
-            "highlight": {
-                version: "5.0.0",
-                minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
-                scaleToFit: "none",
-                centerStage: "none",
-                resizeInstances: false,
-                content: {
-                    dom: [
-                        {
-                            rect: ['0px', '0px', '593px', '62px', 'auto', 'auto'],
-                            stroke: [6, 'rgba(255,0,0,0.50)', 'dotted'],
-                            id: 'Rectangle',
-                            opacity: '0',
-                            type: 'rect',
-                            fill: ['rgba(255,255,255,0.00)']
-                        }
-                    ],
-                    style: {
-                        '${symbolSelector}': {
-                            rect: [null, null, '605px', '74px']
-                        }
-                    }
-                },
-                timeline: {
-                    duration: 789,
-                    autoPlay: true,
-                    data: [
-                        [
-                            "eid46",
-                            "opacity",
-                            0,
-                            0,
-                            "linear",
-                            "${Rectangle}",
-                            '1',
-                            '1'
-                        ],
-                        [
-                            "eid51",
-                            "opacity",
-                            503,
-                            139,
-                            "linear",
-                            "${Rectangle}",
-                            '1',
-                            '0.3'
-                        ],
-                        [
-                            "eid52",
-                            "opacity",
-                            642,
-                            147,
-                            "linear",
-                            "${Rectangle}",
-                            '0.300000',
-                            '1'
-                        ]
                     ]
                 }
             }

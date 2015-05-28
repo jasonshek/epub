@@ -49,7 +49,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
          // insert code for mouse click here
          // Navigate to a new URL in the current window
          // (replace "_self" with appropriate target attribute)
-         window.open("../../5_word_learning/b2-01.html", "_self");
+         window.open("../../5_word_learning/b2-01_P.html", "_self");
          
 
       });

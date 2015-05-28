@@ -45,6 +45,28 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       });
       //Edge binding end
 
+      Symbol.bindTriggerAction(compId, symbolName, "Default Timeline", 0, function(sym, e) {
+         sym.getSymbol("Symbol_1").stop();
+
+      });
+      //Edge binding end
+
+      Symbol.bindElementAction(compId, symbolName, "${play_button}", "click", function(sym, e) {
+         // insert code for mouse click here
+         sym.getSymbol("Symbol_1").play();
+         
+         // Set a toggle to hide or show an element 
+         if (!sym.$("Symbol_1").is(':visible')){
+         	sym.$("play_button").show();
+         	} else {
+         	sym.$("play_button").hide();
+         }
+         
+         
+
+      });
+      //Edge binding end
+
    })("stage");
    //Edge symbol end:'stage'
 
@@ -55,5 +77,13 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
    
    })("highlight");
    //Edge symbol end:'highlight'
+
+   //=========================================================
+   
+   //Edge symbol: 'Symbol_1'
+   (function(symbolName) {   
+   
+   })("Symbol_1");
+   //Edge symbol end:'Symbol_1'
 
 })(window.jQuery || AdobeEdge.$, AdobeEdge, "EDGE-11121547");

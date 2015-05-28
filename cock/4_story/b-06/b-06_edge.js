@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -19,9 +19,9 @@
         ],
         symbols = {
             "stage": {
-                version: "5.0.0",
+                version: "5.0.1",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
+                build: "5.0.1.386",
                 scaleToFit: "none",
                 centerStage: "none",
                 resizeInstances: false,
@@ -89,9 +89,9 @@
                 }
             },
             "symbols_animation_p4": {
-                version: "5.0.0",
+                version: "5.0.1",
                 minimumCompatibleVersion: "5.0.0",
-                build: "5.0.0.375",
+                build: "5.0.1.386",
                 scaleToFit: "none",
                 centerStage: "none",
                 resizeInstances: false,
@@ -106,29 +106,29 @@
                                 id: 'bg_42Copy',
                                 type: 'image',
                                 rect: ['0px', '0px', '650px', '459px', 'auto', 'auto'],
-                                fill: ['rgba(0,0,0,0)', 'images/bg_42.jpg', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/bg_42.jpg', '0px', '0px']
                             },
                             {
                                 rect: ['358px', '24px', '168px', '218px', 'auto', 'auto'],
                                 id: 'rabbitCopy',
                                 type: 'image',
                                 display: 'block',
-                                fill: ['rgba(0,0,0,0)', 'images/rabbit.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/rabbit.png', '0px', '0px']
                             },
                             {
                                 rect: ['342px', '24px', '168px', '218px', 'auto', 'auto'],
                                 type: 'image',
                                 id: 'rabbit_mirrorCopy',
-                                opacity: 1,
+                                opacity: '1',
                                 display: 'none',
-                                fill: ['rgba(0,0,0,0)', 'images/rabbit_mirror.png', '0px', '0px']
+                                fill: ['rgba(0,0,0,0)', '../images/rabbit_mirror.png', '0px', '0px']
                             }]
                         },
                         {
                             id: 'chickenCopy',
                             type: 'image',
                             rect: ['266px', '180px', '235px', '241px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/chicken.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/chicken6.png', '0px', '0px']
                         },
                         {
                             preload: 'auto',
@@ -151,7 +151,7 @@
                             textStyle: ['5px', '', '50px', '55px'],
                             filter: [0, 0, 1, 1, 0, 0, 0.02, 0, 'rgba(0,0,0,0)', 0, 0, 0],
                             id: 'test0',
-                            text: '小公雞來到田地裏，要和小兔子比一比。小兔子　哈哈笑：「我要種蘿蔔，沒空跟你比。」',
+                            text: '小公雞來到田地裏，要和小兔子比一比。小兔子哈哈笑：「我要種蘿蔔，沒空跟你比。」',
                             align: 'left',
                             type: 'text'
                         },
@@ -570,14 +570,34 @@
                             '197px'
                         ],
                         [
-                            "eid1541",
-                            "text-indent",
+                            "eid1464",
+                            "display",
                             0,
                             0,
                             "linear",
-                            "${test6}",
-                            '207px',
-                            '207px'
+                            "${test28}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1465",
+                            "display",
+                            12250,
+                            0,
+                            "linear",
+                            "${test28}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1466",
+                            "display",
+                            12500,
+                            0,
+                            "linear",
+                            "${test28}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1153",
@@ -638,6 +658,16 @@
                             "${test30}",
                             '314px',
                             '314px'
+                        ],
+                        [
+                            "eid1225",
+                            "width",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test10}",
+                            '390px',
+                            '390px'
                         ],
                         [
                             "eid1217",
@@ -780,34 +810,54 @@
                             '483px'
                         ],
                         [
-                            "eid1325",
-                            "font-size",
+                            "eid1393",
+                            "display",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test18}",
-                            '22px',
-                            '22px'
-                        ],
-                        [
-                            "eid1328",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test18}",
-                            '197px',
-                            '197px'
-                        ],
-                        [
-                            "eid1058",
-                            "left",
-                            1000,
-                            4000,
                             "linear",
-                            "${chickenCopy}",
-                            '0px',
-                            '266px'
+                            "${test23}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1394",
+                            "display",
+                            10750,
+                            0,
+                            "linear",
+                            "${test23}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1395",
+                            "display",
+                            11000,
+                            0,
+                            "linear",
+                            "${test23}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1178",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test7}",
+                            '311px',
+                            '311px'
+                        ],
+                        [
+                            "eid1091",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test0}",
+                            '50px',
+                            '50px'
                         ],
                         [
                             "eid1295",
@@ -990,14 +1040,14 @@
                             '390px'
                         ],
                         [
-                            "eid1241",
-                            "letter-spacing",
+                            "eid1096",
+                            "color",
                             0,
                             0,
                             "easeOutSine",
-                            "${test12}",
-                            '5px',
-                            '5px'
+                            "${test0}",
+                            'rgba(0,0,0,1.00)',
+                            'rgba(0,0,0,1.00)'
                         ],
                         [
                             "eid1106",
@@ -1060,34 +1110,14 @@
                             '5px'
                         ],
                         [
-                            "eid1439",
-                            "display",
+                            "eid1498",
+                            "width",
                             0,
                             0,
-                            "linear",
-                            "${test26}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1440",
-                            "display",
-                            11500,
-                            0,
-                            "linear",
-                            "${test26}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1441",
-                            "display",
-                            11750,
-                            0,
-                            "linear",
-                            "${test26}",
-                            'block',
-                            'none'
+                            "easeOutSine",
+                            "${test30}",
+                            '390px',
+                            '390px'
                         ],
                         [
                             "eid1137",
@@ -1180,14 +1210,14 @@
                             '483px'
                         ],
                         [
-                            "eid1271",
-                            "color",
+                            "eid1376",
+                            "left",
                             0,
                             0,
-                            "linear",
-                            "${test14}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "easeOutSine",
+                            "${test22}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1477",
@@ -1220,14 +1250,34 @@
                             '483px'
                         ],
                         [
-                            "eid1123",
-                            "line-height",
+                            "eid1501",
+                            "display",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test3}",
-                            '50px',
-                            '50px'
+                            "linear",
+                            "${test30}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1502",
+                            "display",
+                            12750,
+                            0,
+                            "linear",
+                            "${test30}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1503",
+                            "display",
+                            13000,
+                            0,
+                            "linear",
+                            "${test30}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1211",
@@ -1300,24 +1350,24 @@
                             '483px'
                         ],
                         [
-                            "eid1097",
-                            "line-height",
+                            "eid1508",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test1}",
-                            '50px',
-                            '50px'
+                            "${test31}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1125",
-                            "color",
+                            "eid1199",
+                            "font-size",
                             0,
                             0,
-                            "linear",
-                            "${test3}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "easeOutSine",
+                            "${test8}",
+                            '22px',
+                            '22px'
                         ],
                         [
                             "eid1283",
@@ -1370,22 +1420,22 @@
                             '22px'
                         ],
                         [
-                            "eid1404",
-                            "line-height",
+                            "eid1306",
+                            "width",
                             0,
                             0,
-                            "linear",
-                            "${test24}",
-                            '250px',
-                            '250px'
+                            "easeOutSine",
+                            "${test16}",
+                            '390px',
+                            '390px'
                         ],
                         [
-                            "eid1476",
+                            "eid1380",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test29}",
+                            "${test22}",
                             '197px',
                             '197px'
                         ],
@@ -1510,6 +1560,16 @@
                             '149px'
                         ],
                         [
+                            "eid1300",
+                            "top",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test16}",
+                            '483px',
+                            '483px'
+                        ],
+                        [
                             "eid1311",
                             "left",
                             0,
@@ -1610,14 +1670,34 @@
                             '22px'
                         ],
                         [
-                            "eid1505",
-                            "height",
+                            "eid1355",
+                            "display",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test30}",
-                            '197px',
-                            '197px'
+                            "linear",
+                            "${test20}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1356",
+                            "display",
+                            9130,
+                            0,
+                            "linear",
+                            "${test20}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1357",
+                            "display",
+                            9380,
+                            0,
+                            "linear",
+                            "${test20}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1554",
@@ -1640,14 +1720,14 @@
                             '483px'
                         ],
                         [
-                            "eid1350",
+                            "eid1576",
                             "left",
                             0,
-                            0,
-                            "easeOutSine",
+                            9130,
+                            "linear",
                             "${test20}",
                             '311px',
-                            '311px'
+                            '284px'
                         ],
                         [
                             "eid1537",
@@ -2050,14 +2130,14 @@
                             'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1562",
-                            "text-indent",
-                            0,
-                            0,
+                            "eid1057",
+                            "top",
+                            1000,
+                            13033,
                             "linear",
-                            "${test23}",
-                            '98px',
-                            '98px'
+                            "${chickenCopy}",
+                            '180px',
+                            '175px'
                         ],
                         [
                             "eid1319",
@@ -2110,14 +2190,14 @@
                             '5px'
                         ],
                         [
-                            "eid1363",
-                            "left",
+                            "eid1550",
+                            "text-indent",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test21}",
-                            '311px',
-                            '311px'
+                            "linear",
+                            "${test13}",
+                            '71px',
+                            '71px'
                         ],
                         [
                             "eid1218",
@@ -2300,36 +2380,6 @@
                             '483px'
                         ],
                         [
-                            "eid1501",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test30}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1502",
-                            "display",
-                            12750,
-                            0,
-                            "linear",
-                            "${test30}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1503",
-                            "display",
-                            13000,
-                            0,
-                            "linear",
-                            "${test30}",
-                            'block',
-                            'none'
-                        ],
-                        [
                             "eid1269",
                             "line-height",
                             0,
@@ -2380,66 +2430,6 @@
                             '22px'
                         ],
                         [
-                            "eid1504",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test30}",
-                            '22px',
-                            '22px'
-                        ],
-                        [
-                            "eid1498",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test30}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1347",
-                            "line-height",
-                            0,
-                            0,
-                            "linear",
-                            "${test20}",
-                            '149px',
-                            '149px'
-                        ],
-                        [
-                            "eid1355",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test20}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1356",
-                            "display",
-                            9130,
-                            0,
-                            "linear",
-                            "${test20}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1357",
-                            "display",
-                            9380,
-                            0,
-                            "linear",
-                            "${test20}",
-                            'block',
-                            'none'
-                        ],
-                        [
                             "eid1059",
                             "rotateZ",
                             1000,
@@ -2480,16 +2470,6 @@
                             '0deg'
                         ],
                         [
-                            "eid1113",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test2}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
                             "eid1525",
                             "top",
                             0,
@@ -2510,24 +2490,14 @@
                             '250px'
                         ],
                         [
-                            "eid1521",
-                            "letter-spacing",
+                            "eid1338",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test32}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid1214",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test10}",
-                            '50px',
-                            '50px'
+                            "${test19}",
+                            '390px',
+                            '390px'
                         ],
                         [
                             "eid1528",
@@ -2600,16 +2570,6 @@
                             '22px'
                         ],
                         [
-                            "eid1105",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test1}",
-                            '22px',
-                            '22px'
-                        ],
-                        [
                             "eid1574",
                             "line-height",
                             0,
@@ -2638,16 +2598,6 @@
                             "${test21}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1380",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test22}",
-                            '197px',
-                            '197px'
                         ],
                         [
                             "eid1164",
@@ -2680,34 +2630,24 @@
                             '250px'
                         ],
                         [
-                            "eid1306",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test16}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1345",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test19}",
-                            '22px',
-                            '22px'
-                        ],
-                        [
-                            "eid1557",
+                            "eid1548",
                             "text-indent",
                             0,
                             0,
                             "linear",
-                            "${test20}",
-                            '314px',
-                            '314px'
+                            "${test11}",
+                            '17px',
+                            '17px'
+                        ],
+                        [
+                            "eid1471",
+                            "color",
+                            0,
+                            0,
+                            "linear",
+                            "${test29}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1364",
@@ -2720,24 +2660,24 @@
                             '390px'
                         ],
                         [
-                            "eid1180",
-                            "top",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test7}",
-                            '483px',
-                            '483px'
-                        ],
-                        [
-                            "eid1159",
+                            "eid1505",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test5}",
+                            "${test30}",
                             '197px',
                             '197px'
+                        ],
+                        [
+                            "eid1557",
+                            "text-indent",
+                            0,
+                            0,
+                            "linear",
+                            "${test20}",
+                            '314px',
+                            '314px'
                         ],
                         [
                             "eid1119",
@@ -2770,24 +2710,24 @@
                             'none'
                         ],
                         [
-                            "eid1508",
-                            "letter-spacing",
+                            "eid1231",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test31}",
-                            '5px',
-                            '5px'
+                            "${test11}",
+                            '390px',
+                            '390px'
                         ],
                         [
-                            "eid1433",
-                            "left",
+                            "eid1476",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test26}",
-                            '311px',
-                            '311px'
+                            "${test29}",
+                            '197px',
+                            '197px'
                         ],
                         [
                             "eid1559",
@@ -2810,14 +2750,24 @@
                             '390px'
                         ],
                         [
-                            "eid1199",
-                            "font-size",
+                            "eid1404",
+                            "line-height",
+                            0,
+                            0,
+                            "linear",
+                            "${test24}",
+                            '250px',
+                            '250px'
+                        ],
+                        [
+                            "eid1111",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test8}",
-                            '22px',
-                            '22px'
+                            "${test2}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1149",
@@ -2830,6 +2780,16 @@
                             '50px'
                         ],
                         [
+                            "eid1335",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test19}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
                             "eid1549",
                             "text-indent",
                             0,
@@ -2840,84 +2800,84 @@
                             '44px'
                         ],
                         [
-                            "eid1146",
+                            "eid1514",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test4}",
+                            "${test31}",
                             '197px',
                             '197px'
                         ],
                         [
-                            "eid1511",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test31}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1376",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test22}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1263",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test13}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1264",
-                            "display",
-                            5892,
-                            0,
-                            "linear",
-                            "${test13}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1265",
-                            "display",
-                            6142,
-                            0,
-                            "linear",
-                            "${test13}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1141",
-                            "top",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test4}",
-                            '483px',
-                            '483px'
-                        ],
-                        [
-                            "eid1337",
-                            "left",
+                            "eid1345",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
                             "${test19}",
-                            '311px',
-                            '311px'
+                            '22px',
+                            '22px'
+                        ],
+                        [
+                            "eid1097",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test1}",
+                            '50px',
+                            '50px'
+                        ],
+                        [
+                            "eid1123",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test3}",
+                            '50px',
+                            '50px'
+                        ],
+                        [
+                            "eid1151",
+                            "color",
+                            0,
+                            0,
+                            "linear",
+                            "${test5}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1426",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test25}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1427",
+                            "display",
+                            11250,
+                            0,
+                            "linear",
+                            "${test25}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1428",
+                            "display",
+                            11500,
+                            0,
+                            "linear",
+                            "${test25}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1397",
@@ -2960,34 +2920,34 @@
                             'none'
                         ],
                         [
-                            "eid1518",
-                            "font-size",
+                            "eid1551",
+                            "text-indent",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test31}",
-                            '22px',
-                            '22px'
+                            "linear",
+                            "${test14}",
+                            '98px',
+                            '98px'
                         ],
                         [
-                            "eid1338",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test19}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1202",
+                            "eid1309",
                             "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test9}",
+                            "${test17}",
                             '5px',
                             '5px'
+                        ],
+                        [
+                            "eid1117",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test2}",
+                            '197px',
+                            '197px'
                         ],
                         [
                             "eid1403",
@@ -3000,12 +2960,12 @@
                             '250px'
                         ],
                         [
-                            "eid1212",
+                            "eid1527",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test9}",
+                            "${test32}",
                             '197px',
                             '197px'
                         ],
@@ -3020,14 +2980,14 @@
                             '483px'
                         ],
                         [
-                            "eid1111",
-                            "letter-spacing",
+                            "eid1318",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test2}",
-                            '5px',
-                            '5px'
+                            "${test17}",
+                            '197px',
+                            '197px'
                         ],
                         [
                             "eid1323",
@@ -3060,34 +3020,34 @@
                             '5px'
                         ],
                         [
-                            "eid1418",
-                            "letter-spacing",
+                            "eid1166",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test25}",
-                            '5px',
-                            '5px'
+                            "${test6}",
+                            '390px',
+                            '390px'
                         ],
                         [
-                            "eid1247",
-                            "height",
+                            "eid1282",
+                            "line-height",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test12}",
-                            '197px',
-                            '197px'
+                            "linear",
+                            "${test15}",
+                            '149px',
+                            '149px'
                         ],
                         [
-                            "eid1257",
-                            "letter-spacing",
+                            "eid1474",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test13}",
-                            '5px',
-                            '5px'
+                            "${test29}",
+                            '483px',
+                            '483px'
                         ],
                         [
                             "eid1134",
@@ -3100,24 +3060,24 @@
                             '390px'
                         ],
                         [
-                            "eid1091",
-                            "line-height",
+                            "eid1128",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test0}",
-                            '50px',
-                            '50px'
+                            "${test3}",
+                            '483px',
+                            '483px'
                         ],
                         [
-                            "eid1527",
-                            "height",
+                            "eid1504",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${test32}",
-                            '197px',
-                            '197px'
+                            "${test30}",
+                            '22px',
+                            '22px'
                         ],
                         [
                             "eid1260",
@@ -3130,14 +3090,14 @@
                             '22px'
                         ],
                         [
-                            "eid1092",
-                            "text-indent",
+                            "eid1375",
+                            "color",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test0}",
-                            '55px',
-                            '55px'
+                            "linear",
+                            "${test22}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
                             "eid1274",
@@ -3150,64 +3110,44 @@
                             '483px'
                         ],
                         [
-                            "eid1381",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test22}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1382",
-                            "display",
-                            9630,
-                            0,
-                            "linear",
-                            "${test22}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1383",
-                            "display",
-                            9880,
-                            0,
-                            "linear",
-                            "${test22}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1332",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test18}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1117",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test2}",
-                            '197px',
-                            '197px'
-                        ],
-                        [
-                            "eid1550",
+                            "eid1563",
                             "text-indent",
                             0,
                             0,
                             "linear",
-                            "${test13}",
-                            '71px',
-                            '71px'
+                            "${test24}",
+                            '125px',
+                            '125px'
+                        ],
+                        [
+                            "eid1150",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test5}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1321",
+                            "line-height",
+                            0,
+                            0,
+                            "linear",
+                            "${test18}",
+                            '149px',
+                            '149px'
+                        ],
+                        [
+                            "eid1396",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test23}",
+                            '197px',
+                            '197px'
                         ],
                         [
                             "eid1221",
@@ -3250,44 +3190,64 @@
                             '341px'
                         ],
                         [
-                            "eid1512",
-                            "top",
+                            "eid1244",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${test31}",
-                            '483px',
-                            '483px'
+                            "${test12}",
+                            '22px',
+                            '22px'
                         ],
                         [
-                            "eid1533",
-                            "left",
+                            "eid1263",
+                            "display",
                             0,
                             0,
                             "linear",
-                            "${test0}",
-                            '328px',
-                            '328px'
+                            "${test13}",
+                            'none',
+                            'none'
                         ],
                         [
-                            "eid1096",
-                            "color",
+                            "eid1264",
+                            "display",
+                            5892,
+                            0,
+                            "linear",
+                            "${test13}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1265",
+                            "display",
+                            6142,
+                            0,
+                            "linear",
+                            "${test13}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1202",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test0}",
-                            'rgba(0,0,0,1.00)',
-                            'rgba(0,0,0,1.00)'
+                            "${test9}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1057",
-                            "top",
-                            1000,
-                            13033,
-                            "linear",
-                            "${chickenCopy}",
-                            '180px',
-                            '175px'
+                            "eid1457",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test28}",
+                            '5px',
+                            '5px'
                         ],
                         [
                             "eid1561",
@@ -3300,122 +3260,82 @@
                             '17px'
                         ],
                         [
-                            "eid1454",
-                            "height",
+                            "eid1092",
+                            "text-indent",
                             0,
                             0,
                             "easeOutSine",
-                            "${test27}",
-                            '197px',
-                            '197px'
+                            "${test0}",
+                            '55px',
+                            '55px'
                         ],
                         [
-                            "eid1310",
-                            "color",
-                            0,
-                            0,
-                            "linear",
-                            "${test17}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1432",
-                            "color",
-                            0,
-                            0,
-                            "linear",
-                            "${test26}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
-                        ],
-                        [
-                            "eid1464",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test28}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1465",
-                            "display",
-                            12250,
-                            0,
-                            "linear",
-                            "${test28}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1466",
-                            "display",
-                            12500,
-                            0,
-                            "linear",
-                            "${test28}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1166",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test6}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1393",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test23}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1394",
-                            "display",
-                            10750,
-                            0,
-                            "linear",
-                            "${test23}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1395",
-                            "display",
-                            11000,
-                            0,
-                            "linear",
-                            "${test23}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1175",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test7}",
-                            '50px',
-                            '50px'
-                        ],
-                        [
-                            "eid1178",
+                            "eid1446",
                             "left",
                             0,
                             0,
                             "easeOutSine",
-                            "${test7}",
+                            "${test27}",
+                            '311px',
+                            '311px'
+                        ],
+                        [
+                            "eid1110",
+                            "line-height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test2}",
+                            '50px',
+                            '50px'
+                        ],
+                        [
+                            "eid1510",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test31}",
+                            '311px',
+                            '311px'
+                        ],
+                        [
+                            "eid1575",
+                            "text-indent",
+                            0,
+                            0,
+                            "linear",
+                            "${test32}",
+                            '17px',
+                            '17px'
+                        ],
+                        [
+                            "eid1228",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test11}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1141",
+                            "top",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test4}",
+                            '483px',
+                            '483px'
+                        ],
+                        [
+                            "eid1523",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test32}",
                             '311px',
                             '311px'
                         ],
@@ -3440,34 +3360,14 @@
                             '311px'
                         ],
                         [
-                            "eid1515",
-                            "display",
+                            "eid1564",
+                            "text-indent",
                             0,
                             0,
                             "linear",
-                            "${test31}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1516",
-                            "display",
-                            13000,
-                            0,
-                            "linear",
-                            "${test31}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1517",
-                            "display",
-                            13250,
-                            0,
-                            "linear",
-                            "${test31}",
-                            'block',
-                            'none'
+                            "${test25}",
+                            '152px',
+                            '152px'
                         ],
                         [
                             "eid1329",
@@ -3500,14 +3400,14 @@
                             'none'
                         ],
                         [
-                            "eid1244",
-                            "font-size",
+                            "eid1332",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test12}",
-                            '22px',
-                            '22px'
+                            "${test18}",
+                            '390px',
+                            '390px'
                         ],
                         [
                             "eid1292",
@@ -3520,14 +3420,14 @@
                             '197px'
                         ],
                         [
-                            "eid1565",
-                            "text-indent",
+                            "eid1531",
+                            "font-size",
                             0,
                             0,
-                            "linear",
-                            "${test26}",
-                            '179px',
-                            '179px'
+                            "easeOutSine",
+                            "${test32}",
+                            '22px',
+                            '22px'
                         ],
                         [
                             "eid1438",
@@ -3550,24 +3450,24 @@
                             '22px'
                         ],
                         [
-                            "eid1460",
-                            "width",
+                            "eid1105",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
-                            "${test28}",
-                            '390px',
-                            '390px'
+                            "${test1}",
+                            '22px',
+                            '22px'
                         ],
                         [
-                            "eid1534",
-                            "width",
+                            "eid1541",
+                            "text-indent",
                             0,
                             0,
                             "linear",
-                            "${test0}",
-                            '373px',
-                            '373px'
+                            "${test6}",
+                            '207px',
+                            '207px'
                         ],
                         [
                             "eid1160",
@@ -3580,24 +3480,44 @@
                             '390px'
                         ],
                         [
-                            "eid1542",
-                            "text-indent",
-                            0,
-                            0,
-                            "linear",
-                            "${test7}",
-                            '234px',
-                            '234px'
-                        ],
-                        [
-                            "eid1154",
-                            "top",
+                            "eid1414",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test5}",
-                            '483px',
-                            '483px'
+                            "${test24}",
+                            '390px',
+                            '390px'
+                        ],
+                        [
+                            "eid1130",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test3}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1131",
+                            "display",
+                            2500,
+                            0,
+                            "linear",
+                            "${test3}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1132",
+                            "display",
+                            2750,
+                            0,
+                            "linear",
+                            "${test3}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1140",
@@ -3620,22 +3540,22 @@
                             '483px'
                         ],
                         [
+                            "eid1422",
+                            "top",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test25}",
+                            '483px',
+                            '483px'
+                        ],
+                        [
                             "eid1191",
                             "left",
                             0,
                             0,
                             "easeOutSine",
                             "${test8}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1324",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test18}",
                             '311px',
                             '311px'
                         ],
@@ -3650,14 +3570,14 @@
                             '287px'
                         ],
                         [
-                            "eid1425",
-                            "font-size",
+                            "eid1165",
+                            "left",
                             0,
                             0,
                             "easeOutSine",
-                            "${test25}",
-                            '22px',
-                            '22px'
+                            "${test6}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1540",
@@ -3730,74 +3650,74 @@
                             '483px'
                         ],
                         [
-                            "eid1545",
-                            "text-indent",
-                            0,
-                            0,
-                            "linear",
-                            "${test10}",
-                            '342px',
-                            '342px'
-                        ],
-                        [
-                            "eid1208",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test9}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1209",
-                            "display",
-                            4892,
-                            0,
-                            "linear",
-                            "${test9}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1210",
-                            "display",
-                            5142,
-                            0,
-                            "linear",
-                            "${test9}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1298",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test16}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1341",
+                            "eid1424",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test19}",
+                            "${test25}",
                             '197px',
                             '197px'
                         ],
                         [
-                            "eid1050",
+                            "eid1417",
+                            "line-height",
+                            0,
+                            0,
+                            "linear",
+                            "${test25}",
+                            '250px',
+                            '250px'
+                        ],
+                        [
+                            "eid1127",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test3}",
+                            '22px',
+                            '22px'
+                        ],
+                        [
+                            "eid1352",
                             "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test0}",
+                            "${test20}",
                             '483px',
                             '483px'
+                        ],
+                        [
+                            "eid1248",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test12}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1249",
+                            "display",
+                            5642,
+                            0,
+                            "linear",
+                            "${test12}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1250",
+                            "display",
+                            5892,
+                            0,
+                            "linear",
+                            "${test12}",
+                            'block',
+                            'none'
                         ],
                         [
                             "eid1216",
@@ -3840,14 +3760,14 @@
                             '5px'
                         ],
                         [
-                            "eid1389",
-                            "left",
+                            "eid1409",
+                            "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test23}",
-                            '311px',
-                            '311px'
+                            "${test24}",
+                            '483px',
+                            '483px'
                         ],
                         [
                             "eid1456",
@@ -3860,14 +3780,14 @@
                             '250px'
                         ],
                         [
-                            "eid1406",
-                            "color",
+                            "eid1293",
+                            "font-size",
                             0,
                             0,
-                            "linear",
-                            "${test24}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "easeOutSine",
+                            "${test15}",
+                            '22px',
+                            '22px'
                         ],
                         [
                             "eid1098",
@@ -3880,24 +3800,24 @@
                             '5px'
                         ],
                         [
-                            "eid1293",
-                            "font-size",
+                            "eid1406",
+                            "color",
                             0,
                             0,
-                            "easeOutSine",
-                            "${test15}",
-                            '22px',
-                            '22px'
+                            "linear",
+                            "${test24}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
                         ],
                         [
-                            "eid1409",
-                            "top",
+                            "eid1389",
+                            "left",
                             0,
                             0,
                             "easeOutSine",
-                            "${test24}",
-                            '483px',
-                            '483px'
+                            "${test23}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1104",
@@ -3910,74 +3830,74 @@
                             '197px'
                         ],
                         [
-                            "eid1248",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test12}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1249",
-                            "display",
-                            5642,
-                            0,
-                            "linear",
-                            "${test12}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1250",
-                            "display",
-                            5892,
-                            0,
-                            "linear",
-                            "${test12}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1352",
+                            "eid1050",
                             "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test20}",
+                            "${test0}",
                             '483px',
                             '483px'
                         ],
                         [
-                            "eid1127",
-                            "font-size",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test3}",
-                            '22px',
-                            '22px'
-                        ],
-                        [
-                            "eid1417",
-                            "line-height",
-                            0,
-                            0,
-                            "linear",
-                            "${test25}",
-                            '250px',
-                            '250px'
-                        ],
-                        [
-                            "eid1424",
+                            "eid1341",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test25}",
+                            "${test19}",
                             '197px',
                             '197px'
+                        ],
+                        [
+                            "eid1298",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test16}",
+                            '311px',
+                            '311px'
+                        ],
+                        [
+                            "eid1208",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test9}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1209",
+                            "display",
+                            4892,
+                            0,
+                            "linear",
+                            "${test9}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1210",
+                            "display",
+                            5142,
+                            0,
+                            "linear",
+                            "${test9}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1545",
+                            "text-indent",
+                            0,
+                            0,
+                            "linear",
+                            "${test10}",
+                            '342px',
+                            '342px'
                         ],
                         [
                             "eid1303",
@@ -4030,24 +3950,24 @@
                             '390px'
                         ],
                         [
-                            "eid1165",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test6}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1422",
-                            "top",
+                            "eid1425",
+                            "font-size",
                             0,
                             0,
                             "easeOutSine",
                             "${test25}",
-                            '483px',
-                            '483px'
+                            '22px',
+                            '22px'
+                        ],
+                        [
+                            "eid1324",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test18}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1251",
@@ -4060,44 +3980,34 @@
                             '390px'
                         ],
                         [
-                            "eid1130",
-                            "display",
-                            0,
-                            0,
-                            "linear",
-                            "${test3}",
-                            'none',
-                            'none'
-                        ],
-                        [
-                            "eid1131",
-                            "display",
-                            2500,
-                            0,
-                            "linear",
-                            "${test3}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1132",
-                            "display",
-                            2750,
-                            0,
-                            "linear",
-                            "${test3}",
-                            'block',
-                            'none'
-                        ],
-                        [
-                            "eid1414",
+                            "eid1511",
                             "width",
                             0,
                             0,
                             "easeOutSine",
-                            "${test24}",
+                            "${test31}",
                             '390px',
                             '390px'
+                        ],
+                        [
+                            "eid1154",
+                            "top",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test5}",
+                            '483px',
+                            '483px'
+                        ],
+                        [
+                            "eid1542",
+                            "text-indent",
+                            0,
+                            0,
+                            "linear",
+                            "${test7}",
+                            '234px',
+                            '234px'
                         ],
                         [
                             "eid1405",
@@ -4120,34 +4030,64 @@
                             '50px'
                         ],
                         [
-                            "eid1531",
-                            "font-size",
+                            "eid1418",
+                            "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test32}",
-                            '22px',
-                            '22px'
+                            "${test25}",
+                            '5px',
+                            '5px'
                         ],
                         [
-                            "eid1564",
+                            "eid1515",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test31}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1516",
+                            "display",
+                            13000,
+                            0,
+                            "linear",
+                            "${test31}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1517",
+                            "display",
+                            13250,
+                            0,
+                            "linear",
+                            "${test31}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1562",
                             "text-indent",
                             0,
                             0,
                             "linear",
-                            "${test25}",
-                            '152px',
-                            '152px'
+                            "${test23}",
+                            '98px',
+                            '98px'
                         ],
                         [
-                            "eid1523",
-                            "left",
+                            "eid1175",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test32}",
-                            '311px',
-                            '311px'
+                            "${test7}",
+                            '50px',
+                            '50px'
                         ],
                         [
                             "eid1421",
@@ -4160,64 +4100,64 @@
                             '390px'
                         ],
                         [
-                            "eid1228",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test11}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid1575",
-                            "text-indent",
+                            "eid1534",
+                            "width",
                             0,
                             0,
                             "linear",
-                            "${test32}",
-                            '17px',
-                            '17px'
+                            "${test0}",
+                            '373px',
+                            '373px'
                         ],
                         [
-                            "eid1510",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test31}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1110",
-                            "line-height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test2}",
-                            '50px',
-                            '50px'
-                        ],
-                        [
-                            "eid1446",
-                            "left",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test27}",
-                            '311px',
-                            '311px'
-                        ],
-                        [
-                            "eid1457",
-                            "letter-spacing",
+                            "eid1460",
+                            "width",
                             0,
                             0,
                             "easeOutSine",
                             "${test28}",
-                            '5px',
-                            '5px'
+                            '390px',
+                            '390px'
+                        ],
+                        [
+                            "eid1432",
+                            "color",
+                            0,
+                            0,
+                            "linear",
+                            "${test26}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1577",
+                            "left",
+                            0,
+                            9380,
+                            "linear",
+                            "${test21}",
+                            '311px',
+                            '284px'
+                        ],
+                        [
+                            "eid1518",
+                            "font-size",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test31}",
+                            '22px',
+                            '22px'
+                        ],
+                        [
+                            "eid1565",
+                            "text-indent",
+                            0,
+                            0,
+                            "linear",
+                            "${test26}",
+                            '179px',
+                            '179px'
                         ],
                         [
                             "eid1229",
@@ -4240,104 +4180,104 @@
                             '197px'
                         ],
                         [
-                            "eid1225",
-                            "width",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test10}",
-                            '390px',
-                            '390px'
-                        ],
-                        [
-                            "eid1300",
-                            "top",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test16}",
-                            '483px',
-                            '483px'
-                        ],
-                        [
-                            "eid1396",
-                            "height",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test23}",
-                            '197px',
-                            '197px'
-                        ],
-                        [
-                            "eid1321",
-                            "line-height",
-                            0,
-                            0,
-                            "linear",
-                            "${test18}",
-                            '149px',
-                            '149px'
-                        ],
-                        [
-                            "eid1150",
+                            "eid1241",
                             "letter-spacing",
                             0,
                             0,
                             "easeOutSine",
-                            "${test5}",
+                            "${test12}",
                             '5px',
                             '5px'
                         ],
                         [
-                            "eid1563",
-                            "text-indent",
+                            "eid1325",
+                            "font-size",
                             0,
                             0,
-                            "linear",
-                            "${test24}",
-                            '125px',
-                            '125px'
+                            "easeOutSine",
+                            "${test18}",
+                            '22px',
+                            '22px'
                         ],
                         [
-                            "eid1375",
-                            "color",
+                            "eid1328",
+                            "height",
                             0,
                             0,
-                            "linear",
-                            "${test22}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "easeOutSine",
+                            "${test18}",
+                            '197px',
+                            '197px'
                         ],
                         [
-                            "eid1128",
+                            "eid1058",
+                            "left",
+                            1000,
+                            4000,
+                            "linear",
+                            "${chickenCopy}",
+                            '0px',
+                            '266px'
+                        ],
+                        [
+                            "eid1113",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test2}",
+                            '311px',
+                            '311px'
+                        ],
+                        [
+                            "eid1257",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test13}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1247",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test12}",
+                            '197px',
+                            '197px'
+                        ],
+                        [
+                            "eid1521",
+                            "letter-spacing",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test32}",
+                            '5px',
+                            '5px'
+                        ],
+                        [
+                            "eid1180",
                             "top",
                             0,
                             0,
                             "easeOutSine",
-                            "${test3}",
+                            "${test7}",
                             '483px',
                             '483px'
                         ],
                         [
-                            "eid1474",
-                            "top",
+                            "eid1212",
+                            "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test29}",
-                            '483px',
-                            '483px'
-                        ],
-                        [
-                            "eid1282",
-                            "line-height",
-                            0,
-                            0,
-                            "linear",
-                            "${test15}",
-                            '149px',
-                            '149px'
+                            "${test9}",
+                            '197px',
+                            '197px'
                         ],
                         [
                             "eid1315",
@@ -4370,24 +4310,24 @@
                             'none'
                         ],
                         [
-                            "eid1318",
+                            "eid1310",
+                            "color",
+                            0,
+                            0,
+                            "linear",
+                            "${test17}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1454",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test17}",
+                            "${test27}",
                             '197px',
                             '197px'
-                        ],
-                        [
-                            "eid1548",
-                            "text-indent",
-                            0,
-                            0,
-                            "linear",
-                            "${test11}",
-                            '17px',
-                            '17px'
                         ],
                         [
                             "eid1107",
@@ -4420,62 +4360,102 @@
                             'none'
                         ],
                         [
-                            "eid1309",
-                            "letter-spacing",
-                            0,
-                            0,
-                            "easeOutSine",
-                            "${test17}",
-                            '5px',
-                            '5px'
-                        ],
-                        [
-                            "eid1551",
-                            "text-indent",
-                            0,
-                            0,
-                            "linear",
-                            "${test14}",
-                            '98px',
-                            '98px'
-                        ],
-                        [
-                            "eid1426",
+                            "eid1439",
                             "display",
                             0,
                             0,
                             "linear",
-                            "${test25}",
+                            "${test26}",
                             'none',
                             'none'
                         ],
                         [
-                            "eid1427",
-                            "display",
-                            11250,
-                            0,
-                            "linear",
-                            "${test25}",
-                            'none',
-                            'block'
-                        ],
-                        [
-                            "eid1428",
+                            "eid1440",
                             "display",
                             11500,
                             0,
                             "linear",
-                            "${test25}",
+                            "${test26}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1441",
+                            "display",
+                            11750,
+                            0,
+                            "linear",
+                            "${test26}",
                             'block',
                             'none'
                         ],
                         [
-                            "eid1151",
+                            "eid1533",
+                            "left",
+                            0,
+                            0,
+                            "linear",
+                            "${test0}",
+                            '328px',
+                            '328px'
+                        ],
+                        [
+                            "eid1146",
+                            "height",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test4}",
+                            '197px',
+                            '197px'
+                        ],
+                        [
+                            "eid1512",
+                            "top",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test31}",
+                            '483px',
+                            '483px'
+                        ],
+                        [
+                            "eid1381",
+                            "display",
+                            0,
+                            0,
+                            "linear",
+                            "${test22}",
+                            'none',
+                            'none'
+                        ],
+                        [
+                            "eid1382",
+                            "display",
+                            9630,
+                            0,
+                            "linear",
+                            "${test22}",
+                            'none',
+                            'block'
+                        ],
+                        [
+                            "eid1383",
+                            "display",
+                            9880,
+                            0,
+                            "linear",
+                            "${test22}",
+                            'block',
+                            'none'
+                        ],
+                        [
+                            "eid1271",
                             "color",
                             0,
                             0,
                             "linear",
-                            "${test5}",
+                            "${test14}",
                             'rgba(255,0,0,1.00)',
                             'rgba(255,0,0,1.00)'
                         ],
@@ -4520,24 +4500,34 @@
                             '22px'
                         ],
                         [
-                            "eid1514",
+                            "eid1159",
                             "height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test31}",
+                            "${test5}",
                             '197px',
                             '197px'
                         ],
                         [
-                            "eid1335",
-                            "letter-spacing",
+                            "eid1125",
+                            "color",
+                            0,
+                            0,
+                            "linear",
+                            "${test3}",
+                            'rgba(255,0,0,1.00)',
+                            'rgba(255,0,0,1.00)'
+                        ],
+                        [
+                            "eid1214",
+                            "line-height",
                             0,
                             0,
                             "easeOutSine",
-                            "${test19}",
-                            '5px',
-                            '5px'
+                            "${test10}",
+                            '50px',
+                            '50px'
                         ],
                         [
                             "eid1101",
@@ -4548,6 +4538,16 @@
                             "${test1}",
                             '390px',
                             '390px'
+                        ],
+                        [
+                            "eid1337",
+                            "left",
+                            0,
+                            0,
+                            "easeOutSine",
+                            "${test19}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1289",
@@ -4590,14 +4590,14 @@
                             '149px'
                         ],
                         [
-                            "eid1231",
-                            "width",
+                            "eid1433",
+                            "left",
                             0,
                             0,
                             "easeOutSine",
-                            "${test11}",
-                            '390px',
-                            '390px'
+                            "${test26}",
+                            '311px',
+                            '311px'
                         ],
                         [
                             "eid1450",
@@ -4640,14 +4640,14 @@
                             '311px'
                         ],
                         [
-                            "eid1471",
-                            "color",
+                            "eid1347",
+                            "line-height",
                             0,
                             0,
                             "linear",
-                            "${test29}",
-                            'rgba(255,0,0,1.00)',
-                            'rgba(255,0,0,1.00)'
+                            "${test20}",
+                            '149px',
+                            '149px'
                         ],
                             [ "eid1077", "trigger", 0, function executeMediaFunction(e, data) { this._executeMediaAction(e, data); }, ['play', '${_34Copy}', [] ] ]
                     ]

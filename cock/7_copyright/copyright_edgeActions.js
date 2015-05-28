@@ -24,7 +24,7 @@ var Composition = Edge.Composition, Symbol = Edge.Symbol; // aliases for commonl
       //Edge binding end
 
       Symbol.bindElementAction(compId, symbolName, "${bu_l}", "click", function(sym, e) {
-         window.open("../6_quiz/quiz_2/d-08.html", "_self");
+         window.open("../6_quiz/quiz_1/c-07.html", "_self");
 
       });
       //Edge binding end

@@ -107,3 +107,26 @@
 [0225/215410:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/a2-01/a2-01/edge_includes/jquery-2.0.3.min.js (4)
 [0225/215531:INFO:CONSOLE(0)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined,4", source: about:docKey-12970 (0)
 [0225/215531:INFO:CONSOLE(4)] "Uncaught TypeError: Cannot read property 'nodeType' of undefined", source: http://127.0.0.1:54321/_DRIVE_C_EVIRD_/Users/i7/Desktop/%E9%9B%BB%E5%AD%90%E6%9B%B82015-02-25/gongji/working_file/a2-01/a2-01/edge_includes/jquery-2.0.3.min.js (4)
+[0406/005221:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/005221:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/005221:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/005221:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0406/005221:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/005221:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot call method 'appendChild' of undefined", source: v8/appCss (1)
+[0406/005221:INFO:CONSOLE(0)] "event.returnValue is deprecated. Please use the standard event.preventDefault() instead.", source:  (0)
+[0406/005525:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/010320:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/010325:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/011336:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0406/011354:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/011421:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0406/011528:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/011843:INFO:CONSOLE(1)] "ReferenceError: EdgeDOM is not defined
+    at eval (eval at <anonymous> (about:blank:0:47), <anonymous>:1:7)
+    at about:blank:0:47", source:  (1)
+[0406/011845:ERROR:renderer_main.cc(226)] Running without renderer sandbox
+[0406/012623:ERROR:ipc_channel_win.cc(405)] pipe error: 232

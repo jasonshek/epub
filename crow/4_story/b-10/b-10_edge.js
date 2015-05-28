@@ -3,7 +3,7 @@
 (function (compId) {
 
     "use strict";
-    var im='images/',
+    var im='../images/',
         aud='media/',
         vid='media/',
         js='js/',
@@ -100,42 +100,42 @@
                             type: 'image',
                             id: 'bg',
                             rect: ['0px', '0px', '1079px', '762px', 'auto', 'auto'],
-                            fill: ['rgba(0,0,0,0)', 'images/bg.jpg', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/bg10.jpg', '0px', '0px']
                         },
                         {
                             rect: ['588px', '262px', '36px', '35px', 'auto', 'auto'],
                             id: 'water2',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/water2.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/water2_10.png', '0px', '0px']
                         },
                         {
                             rect: ['650px', '311px', '36px', '50px', 'auto', 'auto'],
                             id: 'water1Copy',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/water1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/water1_10.png', '0px', '0px']
                         },
                         {
                             type: 'image',
                             id: 'corvus',
                             rect: ['643px', '119px', '316px', '398px', 'auto', 'auto'],
                             transform: [[], ['-7'], [0, 0, 0], [1, 1, 1]],
-                            fill: ['rgba(0,0,0,0)', 'images/corvus.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/corvus10.png', '0px', '0px']
                         },
                         {
                             rect: ['596px', '299px', '43px', '51px', 'auto', 'auto'],
                             id: 'water1',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/water1.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/water1_10.png', '0px', '0px']
                         },
                         {
                             rect: ['621px', '291px', '36px', '51px', 'auto', 'auto'],
                             id: 'water3',
                             type: 'image',
                             display: 'none',
-                            fill: ['rgba(0,0,0,0)', 'images/water3.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/water3.png', '0px', '0px']
                         },
                         {
                             type: 'image',
@@ -143,7 +143,7 @@
                             display: 'none',
                             rect: ['552px', '28px', '494px', '297px', 'auto', 'auto'],
                             id: 'sun_bar',
-                            fill: ['rgba(0,0,0,0)', 'images/sun_bar.png', '0px', '0px']
+                            fill: ['rgba(0,0,0,0)', '../images/sun_bar.png', '0px', '0px']
                         },
                         {
                             rect: ['359px', '752px', '720px', '398px', 'auto', 'auto'],
